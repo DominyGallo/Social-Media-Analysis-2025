@@ -124,7 +124,85 @@ For phrases, the process is similar.
     
         return df
 
+Next, we prepared two visualizations: bar charts, disagreggated by indicators such as income level and sub-region, and cloropleth maps, which use the country codes. 
+
+For a single word, the bar chart code is:
+
+        import matplotlib.pyplot as plt
         
+        # Assuming 'Sub-region Name' is a column in the DataFrame 'df', and we want to plot the 'growth_count' by 'Party':
+        
+        # Group the DataFrame by 'Sub-region Name' and calculate the mean growth count for each party
+        party_adaptation_counts = df.groupby('Sub-region Name')['adaptation_count_normalized'].mean()
+        
+        # Create the plot
+        plt.figure(figsize=(10, 6))
+        party_adaptation_counts.plot(kind='bar')
+        plt.title('Average Adaptation Count per Sub-region')
+        plt.xlabel('Sub-region Name')
+        plt.ylabel('Average Adaptation Count')
+        plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
+        plt.tight_layout()
+        plt.show()
+
+The cloropleth map can be created: 
+
+
+
+For very low-frequency phrases, we also created a find_countries_with_phrase function to list the names of the countries whose NDCs include them.
+
+        def find_countries_with_phrase(df, phrase):
+            phrase = phrase.lower()  # Ensure the phrase is in lowercase
+        
+            countries_with_phrase = []
+        
+            # Iterate over the DataFrame rows
+            for index, row in tqdm(df.iterrows(), total=df.shape[0]):
+                text = row["text_content"]
+                country = row["Party"]  # Replace 'Country' with your actual column name for countries/parties
+        
+                # Process the text content
+                doc = nlp(text.lower())
+                doc_text = doc.text
+        
+                # Count occurrences of the phrase in the text
+                raw_count = doc_text.count(phrase)
+        
+                # If the raw count is greater than 0, add the country to the list
+                if raw_count > 0:
+                    countries_with_phrase.append(country)
+        
+            return countries_with_phrase
+        
+        # Application:
+        phrase = "planetary boundaries"
+        countries = find_countries_with_phrase(df, phrase)
+        
+        # Display the list of countries
+        print("Countries with 'planetary boundaries' in their NDCs:", countries)
+        
+### Post-Growth Discourse
+
+#### "Steady-State"
+![Steady State - Map](https://github.com/user-attachments/assets/3861d20b-8a20-4b35-a45a-88973300e446)
+![Steady State - Sub-Region Graph](https://github.com/user-attachments/assets/0d2113c5-7580-4f71-a23c-238c5bbe5ef8)
+
+#### "Planetary Boundaries"
+![Planetary Boundaries - Map](https://github.com/user-attachments/assets/efa4f6af-5722-410d-afe6-bdd6b0e83d44)
+![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
+![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
+
+
+We found that "Planetary Boundaries" is only used in 
+
+### Energy Themes
+
+#### "Fossil Fuels"
+![Fossil Fuels - Map](https://github.com/user-attachments/assets/9624682a-2359-4c23-b3dd-3c4a5fbe27a8)
+![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
+![Fossil Fuels - Sub-Region Graph](https://github.com/user-attachments/assets/d78578d4-d341-4e3f-8060-858ec7f362e0)
+
+
 
 ### "Sustainable"
 ![Sustainable Map](https://github.com/user-attachments/assets/94118669-f6c7-42c0-9b50-68e0314a29d5)
