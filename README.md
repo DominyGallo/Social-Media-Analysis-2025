@@ -231,8 +231,8 @@ We then tested the more traditional phrases "economic growth" and "development."
 
 #### "Development"
 ![Development - map](https://github.com/user-attachments/assets/bd47e411-c00b-4a35-b060-f2721e37f6ba)
-![Development - Graph - subregion](https://github.com/user-attachments/assets/b0254d2b-9d56-4a7c-a58c-81847c1c4d36)
-![Development - Graph - income](https://github.com/user-attachments/assets/10738598-1f0e-4149-bbfb-cd286fcdc89e)
+![Development - Graph - subregion](https://github.com/user-attachments/assets/56415471-bc27-4f4e-8123-184b9f58ed3d)
+![Development - Graph - income](https://github.com/user-attachments/assets/104476c6-b3c3-443c-b856-6f0ab4dba236)
 
 ### Visualizations: The Private Sector
 
