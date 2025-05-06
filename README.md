@@ -5,6 +5,15 @@ Date: May 8, 2025
 
 ## Introduction
 
+GRAPH STYLING: 
+
+Average Normalized Count of "[Word]” by Income Level/Sub-region etc
+
+MAP STYLING
+
+Average Normalized Count of '[Word]' by Country
+
+
 ## Data Processing
 
 ## Results
