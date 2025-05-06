@@ -41,7 +41,7 @@ We created a folder of NDC .txt files and a .csv file with a "filename" column c
 
     # Path to the CSV and folder with text files
     txt_folder = "/content/drive/Shareddrives/NDC_txts"
-    csv_path = "/content/drive/Shareddrives/NDC_txts/ndcs - sorted with indicators - All indicators (1) (1).csv"
+    csv_path = "/content/drive/Shareddrives/NDC_txts/Reg_NDC_1.csv"
     
     # Loading the CSV
     df = pd.read_csv(csv_path)
