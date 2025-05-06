@@ -210,16 +210,14 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
 #### Post-Growth Discourse
 
 ###### "Steady-State"
-![Steady State - Map](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
+![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
 
 ![Steady State - Sub-Region Graph](https://github.com/user-attachments/assets/7a36c452-cabc-4172-8e0c-20c2ca950f39)
 
-
 ##### "Planetary Boundaries"
-![Planetary Boundaries - Map](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
+![Planetary Boundaries](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
 
 ![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
-
 ![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
 
 We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
@@ -230,50 +228,59 @@ We found that the phrase "planetary boundaries" is only used in Cabo Verde and L
 
 ##### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
+
 ![Economic Growth - Income Level Graph](https://github.com/user-attachments/assets/2cc21053-929f-4f2f-8ba8-0e7f0a905db2)
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
 
 ##### "Green Growth"
-![Green Growth Map](https://github.com/user-attachments/assets/9c721547-23fd-4875-8cb7-9b76b05938bb)
+![Green Growth](https://github.com/user-attachments/assets/9c721547-23fd-4875-8cb7-9b76b05938bb)
+
 ![Green Growth - Income Level Graph](https://github.com/user-attachments/assets/6650b4d4-e3ee-4bf0-946c-d853a1f3bf7a)
 ![Green Growth - Sub-Region Graph](https://github.com/user-attachments/assets/72fb5e8b-9524-4b7a-bffa-16d33cd1408f)
 
 ##### "Sustainable"
-![Sustainable Map](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
+![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
+
 ![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
 ![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
 
 #### Energy Themes
 
 ###### "Fossil Fuels"
-![Fossil Fuels - Map](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
+![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
+
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
 ![Fossil Fuels - Sub-Region Graph](https://github.com/user-attachments/assets/d78578d4-d341-4e3f-8060-858ec7f362e0)
 
 ##### "Energy Transition"
-![Energy Transition Map](https://github.com/user-attachments/assets/37d9e460-55aa-45db-a450-ca2d28f9f1b3)
+![Energy Transition](https://github.com/user-attachments/assets/37d9e460-55aa-45db-a450-ca2d28f9f1b3)
+
 ![Energy Transition - Income Level Graph](https://github.com/user-attachments/assets/2a55b3af-4328-43a6-a859-dfec6528a8dd)
 ![Energy Transition - Sub-Region Graph](https://github.com/user-attachments/assets/849745ba-4c6e-4bd5-8ebb-e04ca6e422ea)
 
 ##### "Clean Energy"
 ![Clean Energy](https://github.com/user-attachments/assets/7701a25b-9de5-40c1-b563-9b7b54c8c049)
+
 ![Clean Energy - Sub-Region Graph](https://github.com/user-attachments/assets/65a0649c-2f42-46d5-982e-063b4dd09a61)
 ![Clean Energy - Income Level Graph](https://github.com/user-attachments/assets/bf8b916f-139c-4035-ac4e-193d18320c73)
 
 
 #### Policy Discourse (?)
 ##### "Mitigation"
-![Mitigation](https://github.com/user-attachments/assets/43bc7340-b7d7-400c-9787-05abafc2b096)
+![Mitigation](https://github.com/user-attachments/assets/ec285821-07df-46b6-8ab6-f6b5af687fcd)
+
 ![Mitigation - Sub-Region Graph](https://github.com/user-attachments/assets/0036265e-409f-48a7-a12f-0c88fe2f6988)
 ![Mitigation - Income Level Graph](https://github.com/user-attachments/assets/a8933767-579a-442a-9169-5c2124a6d39f)
 
 ##### "Adaptation"
-![Adaptation](https://github.com/user-attachments/assets/86e43e64-a740-4947-8753-c015122e7481)
+![Adaptation](https://github.com/user-attachments/assets/b9310e27-418a-4a53-baaa-9b9b69dbc52e)
+
 ![Adaptation - Sub-Region Graph](https://github.com/user-attachments/assets/8655cf6d-bc4d-41f0-b26c-335030eebfae)
 ![Adaptation - Income Level Graph](https://github.com/user-attachments/assets/681b7db4-5052-4a8f-8d22-3c83f4b6b522)
 
 ##### "Disaster"
 ![Disaster](https://github.com/user-attachments/assets/d180ad76-39a0-4e8c-8746-033d364f6be6)
+
 ![Disaster - Sub Region Graph](https://github.com/user-attachments/assets/3134cda9-c48e-4739-9ab3-b9b04ffc0483)
 ![Disaster - Income Level Graph](https://github.com/user-attachments/assets/3d5550f5-6a71-4937-9021-f11e11b1ca80)
 
