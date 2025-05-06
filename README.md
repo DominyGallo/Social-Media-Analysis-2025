@@ -211,11 +211,7 @@ We found that "Planetary Boundaries" is only used in
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
 ![Fossil Fuels - Sub-Region Graph](https://github.com/user-attachments/assets/d78578d4-d341-4e3f-8060-858ec7f362e0)
 
-
-
 ### "Sustainable"
-![Sustainable Map](https://github.com/user-attachments/assets/94118669-f6c7-42c0-9b50-68e0314a29d5)
-![Sustainable count by Country](https://github.com/user-attachments/assets/95ff5512-c833-49ec-a95d-e75ce06557b5)
 
 ### "Energy Transition"
 ![Energy Transition Map](https://github.com/user-attachments/assets/bd55a6f0-1736-4208-ba39-95615e828e47)
@@ -226,13 +222,8 @@ We found that "Planetary Boundaries" is only used in
 ![Clean Energy](https://github.com/user-attachments/assets/931fddca-b32c-411d-9614-efc3a2b4fa0a)
 
 ### "Disaster"
-![Disaster Map](https://github.com/user-attachments/assets/6786b0b3-87c3-476b-8841-053fa18130e7)
-![Disaster Count by Sub-Region](https://github.com/user-attachments/assets/748d643d-0394-463a-8dd0-575dbb920c2a)
 
 #### "Adaptation"
-![Adaptation Map](https://github.com/user-attachments/assets/cb06fb2f-276f-4fe6-a625-cb0847e98720)
-![Adaptation by Sub-Region](https://github.com/user-attachments/assets/92ee59ed-4a5e-43d4-8e8b-572016feca89)
-
 
 ### Regression Analysis
 
