@@ -216,30 +216,25 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
         # Display the list of countries
         print("Countries with 'planetary boundaries' in their NDCs:", countries)
         
-### Visualizations: Post-Growth
+### Theme 1 Visualizations: Post-Growth
 
-The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse,** such as "steady state," recognition of "planetary boundaries," and "degrowth."
+The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse** [EXPLAIN?], such as "steady state” and "degrowth," and the recognition of ecological limits, “planetary boundaries.”
 
 #### "Steady State"
 ![Planetary Boundaries](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
 
-We found that the phrase "steady state" is only used in Barbados. 
-
 #### "Planetary Boundaries"
 ![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
 
-We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
+The phrase “steady state” is only used in Barbados’s NDC, and “planetary boundaries” in Cabo Verde’s and Liberia’s. The word “degrowth” appears in no NDCs in the corpus. [DISCUSS]
 
-The word "degrowth" appears nowhere in the corpus.
+### Theme 2 Visualizations: Economic Growth and Development
 
-### Visualizations: Economic Growth and Development
-
-We then tested the more traditional phrases "economic growth" and "development."
+Having demonstrated the lack of terms from discourses critical of economic growth in an ecological context, we tested  "economic growth" and "development," which revealed themselves to be far more prevalent across the corpus.
 
 #### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
 
-![Economic Growth - Income Level Graph](https://github.com/user-attachments/assets/2cc21053-929f-4f2f-8ba8-0e7f0a905db2)
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
 
 #### "Development"
