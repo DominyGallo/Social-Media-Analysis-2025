@@ -7,7 +7,8 @@ Date: May 8, 2025
 
 GRAPH STYLING: 
 
-Average Normalized Count of "[Word]” by Income Level/Sub-region etc
+Title: Average Normalized Count of "[Word]” by Income Level/Sub-region etc
+x-label: Average "[Word]" Count
 
 MAP STYLING
 
@@ -137,28 +138,40 @@ For phrases, the process is similar.
 
 Next, we prepared two visualizations: bar charts, disagreggated by indicators such as income level and sub-region, and cloropleth maps, which use the country codes. 
 
-For a single word, the bar chart code is:
+For a single word, we create a bar chart by grouping the average normalized word count for a given word by the selected indicator—in this case, sub-region—and plotting it.
 
         import matplotlib.pyplot as plt
         
         # Assuming 'Sub-region Name' is a column in the DataFrame 'df', and we want to plot the 'growth_count' by 'Party':
         
         # Group the DataFrame by 'Sub-region Name' and calculate the mean growth count for each party
-        party_adaptation_counts = df.groupby('Sub-region Name')['adaptation_count_normalized'].mean()
+        party_[word]_counts = df.groupby('Sub-region Name')['[word]_count_normalized'].mean()
         
         # Create the plot
         plt.figure(figsize=(10, 6))
-        party_adaptation_counts.plot(kind='bar')
-        plt.title('Average Adaptation Count per Sub-region')
+        party_[word]_counts.plot(kind='bar')
+        plt.title('Average ["Word"] Count per Sub-region')
         plt.xlabel('Sub-region Name')
-        plt.ylabel('Average Adaptation Count')
+        plt.ylabel('Average ["Word"] Count')
         plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
         plt.tight_layout()
         plt.show()
 
-The cloropleth map can be created: 
+To create a chloropleth map, we used the following code: 
 
-
+        import plotly.express as px
+        
+        fig = px.choropleth(
+            df,
+            locations="Code",                   # Name of the column with ISO alpha-3 codes
+            color="[word]_count_normalized",    # Variable represented by color
+            hover_name="Party",                 # Information displayed when hovering over each country
+            color_continuous_scale="Viridis",   # Color Palette
+            title="'Word' count by country",    # Title
+            projection="natural earth"          # Cartographic projection style
+        )
+        
+        fig.show()
 
 For very low-frequency phrases, we also created a find_countries_with_phrase function to list the names of the countries whose NDCs include them.
 
