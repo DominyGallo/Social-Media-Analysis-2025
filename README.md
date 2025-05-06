@@ -251,6 +251,9 @@ We found that the phrase "planetary boundaries" is only used in Cabo Verde and L
 ![Mitigation - Income Level Graph](https://github.com/user-attachments/assets/a8933767-579a-442a-9169-5c2124a6d39f)
 
 ##### "Adaptation"
+![Adaptation](https://github.com/user-attachments/assets/86e43e64-a740-4947-8753-c015122e7481)
+![Adaptation - Sub-Region Graph](https://github.com/user-attachments/assets/8655cf6d-bc4d-41f0-b26c-335030eebfae)
+![Adaptation - Income Level Graph](https://github.com/user-attachments/assets/681b7db4-5052-4a8f-8d22-3c83f4b6b522)
 
 ##### "Disaster"
 
