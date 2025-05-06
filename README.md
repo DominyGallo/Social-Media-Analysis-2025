@@ -20,6 +20,8 @@ Average Normalized Count of '[Word]' by Country
 
 ### Word Frequency
 
+### Topic Modeling
+
 ### Counting Words
 
 #### Method
