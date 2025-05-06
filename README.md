@@ -208,13 +208,14 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
 ### Post-Growth Discourse
 
 #### "Steady-State"
-![Steady State - Map](![newplot (2)](https://github.com/user-attachments/assets/479fa6c2-efde-4067-9fda-cc3a7ea3eecc)
-![Steady State - Sub-Region Graph](![steady_State_region](https://github.com/user-attachments/assets/691f0ed7-3a87-45ce-99a4-3150572bbef7)
+![Steady State - Map](https://github.com/user-attachments/assets/479fa6c2-efde-4067-9fda-cc3a7ea3eecc)
+![Steady State - Sub-Region Graph](https://github.com/user-attachments/assets/691f0ed7-3a87-45ce-99a4-3150572bbef7)
 
 #### "Planetary Boundaries"
-![Planetary Boundaries - Map](https://github.com/user-attachments/assets/efa4f6af-5722-410d-afe6-bdd6b0e83d44)
-![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
-![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
+![Planetary Boundaries - Map](https://github.com/user-attachments/assets/fcb86300-06ff-4c98-81c8-39637a0bb98d)
+![Planetary Boundaries - Income](https://github.com/user-attachments/assets/eac220e3-bf06-4486-ac5c-a94977579f5a)
+![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/7c7aeae6-f138-4085-8de9-a156089f9c7d)
+
 
 We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
 
