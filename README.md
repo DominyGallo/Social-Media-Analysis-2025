@@ -58,7 +58,7 @@ We created a folder of NDC .txt files and a .csv file with a "filename" column c
     # Applying the function to the 'filename' column
     df["text_content"] = df["filename"].apply(read_text)
 
-Next, we started counting words and phrases in the "text_content" column. For words, we defined the function normalize_word_count that counts the number of times a target word appears in each entry in the "text_content" column and normalizes that figure based on the length of the document ["doc_length"] with stop words eliminated. We then create a new column, "normalized counts," for the normalized count of the target word for each NDC.
+Next, we started counting words and phrases in the "text_content" column. For words, we defined the function normalize_word_count that counts the number of times a target word appears in each entry in the "text_content" column and normalizes that figure based on the length of the document ("doc_length") with stop words eliminated. We then created a new column, "normalized counts," for the normalized count of the target word for each NDC.
 
     nlp = spacy.load("en_core_web_sm")
     nlp.max_length = 2000000
@@ -134,7 +134,7 @@ For phrases, the process is similar. The code below can handle multiple phrases 
     
         return df
 
-Next, we prepared two visualizations: bar charts, disagreggated by indicators such as income level and sub-region, and cloropleth maps, which use the country codes. 
+We subsequently prepared two visualizations: bar charts, disagreggated by indicators such as income level and sub-region, and cloropleth maps, which use the country codes. 
 
 For a single word, we create a bar chart by grouping the average normalized word count for a given word by the selected indicator—in this case, sub-region—and plotting it.
 
