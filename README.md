@@ -205,19 +205,15 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
         
 ### Visualizations: Post-Growth
 
-The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse,** such as "steady state," recognition of "planetary boundaries," "degrowth,"  [...]
+The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse,** such as "steady state," recognition of "planetary boundaries," and "degrowth."
 
 #### "Steady State"
 ![Planetary Boundaries](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
-![Steady State - Sub-Region Graph](https://github.com/user-attachments/assets/7a36c452-cabc-4172-8e0c-20c2ca950f39)
 
 We found that the phrase "steady state" is only used in Barbados. 
 
 #### "Planetary Boundaries"
 ![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
-
-![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
-![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
 
 We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
 
@@ -225,19 +221,13 @@ The word "degrowth" appears nowhere in the corpus.
 
 ### Visualizations: Economic Growth and Development
 
-We tested another set of terms associated with "**economic growth,**" including "green growth," "development"
+We then texted the more traditional phrases, "economic growth" and "development."
 
 #### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
 
 ![Economic Growth - Income Level Graph](https://github.com/user-attachments/assets/2cc21053-929f-4f2f-8ba8-0e7f0a905db2)
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
-
-#### "Green Growth"
-![Green Growth](https://github.com/user-attachments/assets/9c721547-23fd-4875-8cb7-9b76b05938bb)
-
-![Green Growth - Income Level Graph](https://github.com/user-attachments/assets/6650b4d4-e3ee-4bf0-946c-d853a1f3bf7a)
-![Green Growth - Sub-Region Graph](https://github.com/user-attachments/assets/72fb5e8b-9524-4b7a-bffa-16d33cd1408f)
 
 #### "Development"
 ![Development - map](https://github.com/user-attachments/assets/bd47e411-c00b-4a35-b060-f2721e37f6ba)
