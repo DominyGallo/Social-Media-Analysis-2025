@@ -244,7 +244,10 @@ We found that the phrase "planetary boundaries" is only used in Cabo Verde and L
 ![Energy Transition - Sub-Region Graph](https://github.com/user-attachments/assets/849745ba-4c6e-4bd5-8ebb-e04ca6e422ea)
 
 ##### "Clean Energy"
-![Clean Energy](https://github.com/user-attachments/assets/931fddca-b32c-411d-9614-efc3a2b4fa0a)
+![Clean Energy](https://github.com/user-attachments/assets/7701a25b-9de5-40c1-b563-9b7b54c8c049)
+![Clean Energy - Sub-Region Graph](https://github.com/user-attachments/assets/65a0649c-2f42-46d5-982e-063b4dd09a61)
+![Clean Energy - Income Level Graph](https://github.com/user-attachments/assets/bf8b916f-139c-4035-ac4e-193d18320c73)
+
 
 #### Policy Discourse (?)
 ##### "Mitigation"
