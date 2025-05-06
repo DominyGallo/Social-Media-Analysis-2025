@@ -205,37 +205,55 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
         # Display the list of countries
         print("Countries with 'planetary boundaries' in their NDCs:", countries)
         
-### Post-Growth Discourse
+### Visualizations
 
-#### "Steady-State"
+#### Post-Growth Discourse
+
+###### "Steady-State"
 ![Steady State - Map](![newplot (2)](https://github.com/user-attachments/assets/479fa6c2-efde-4067-9fda-cc3a7ea3eecc)
 ![Steady State - Sub-Region Graph](![steady_State_region](https://github.com/user-attachments/assets/691f0ed7-3a87-45ce-99a4-3150572bbef7)
 
-#### "Planetary Boundaries"
+##### "Planetary Boundaries"
 ![Planetary Boundaries - Map](https://github.com/user-attachments/assets/efa4f6af-5722-410d-afe6-bdd6b0e83d44)
 ![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
 ![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
 
 We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
 
-### Energy Themes
+##### "Degrowth", "Consumption" ?
 
-#### "Fossil Fuels"
+#### Traditional economics discourse (?)
+
+##### "Economic Growth"
+
+##### "Green Growth"
+
+##### "Sustainable"
+
+#### Energy Themes
+
+###### "Fossil Fuels"
 ![Fossil Fuels - Map](https://github.com/user-attachments/assets/9624682a-2359-4c23-b3dd-3c4a5fbe27a8)
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
 ![Fossil Fuels - Sub-Region Graph](https://github.com/user-attachments/assets/d78578d4-d341-4e3f-8060-858ec7f362e0)
 
-### "Sustainable"
-
-### "Energy Transition"
+##### "Energy Transition"
 ![Energy Transition](https://github.com/user-attachments/assets/a2dfcb6d-97ae-43a3-b56a-6eef17b76d6c)
 
-### "Clean Energy"
+##### "Clean Energy"
 ![Clean Energy](https://github.com/user-attachments/assets/931fddca-b32c-411d-9614-efc3a2b4fa0a)
 
-### "Disaster"
+#### Policy Discourse (?)
+##### "Mitigation"
+##### "Adaptation"
+##### "Disaster"
 
-#### "Adaptation"
+### Regression Analysis
+
+## Discussion
+
+## Conclusion
+
 
 ### Regression Analysis
 
