@@ -221,7 +221,7 @@ The word "degrowth" appears nowhere in the corpus.
 
 ### Visualizations: Economic Growth and Development
 
-We then texted the more traditional phrases, "economic growth" and "development."
+We then tested the more traditional phrases "economic growth" and "development."
 
 #### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
