@@ -228,11 +228,9 @@ We found that the phrase "planetary boundaries" is only used in Cabo Verde and L
 ### "Sustainable"
 
 ### "Energy Transition"
-![Energy Transition Map](https://github.com/user-attachments/assets/bd55a6f0-1736-4208-ba39-95615e828e47)
 ![Energy Transition](https://github.com/user-attachments/assets/a2dfcb6d-97ae-43a3-b56a-6eef17b76d6c)
 
 ### "Clean Energy"
-![Clean Energy Map](https://github.com/user-attachments/assets/97775064-a77a-4088-a7f4-43fa93fe1b60)
 ![Clean Energy](https://github.com/user-attachments/assets/931fddca-b32c-411d-9614-efc3a2b4fa0a)
 
 ### "Disaster"
