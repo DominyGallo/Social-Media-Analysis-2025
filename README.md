@@ -226,10 +226,19 @@ We found that the phrase "planetary boundaries" is only used in Cabo Verde and L
 #### Traditional economics discourse (?)
 
 ##### "Economic Growth"
+![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
+![Economic Growth - Income Level Graph](https://github.com/user-attachments/assets/2cc21053-929f-4f2f-8ba8-0e7f0a905db2)
+![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
 
 ##### "Green Growth"
+![Green Growth Map](https://github.com/user-attachments/assets/9c721547-23fd-4875-8cb7-9b76b05938bb)
+![Green Growth - Income Level Graph](https://github.com/user-attachments/assets/6650b4d4-e3ee-4bf0-946c-d853a1f3bf7a)
+![Green Growth - Sub-Region Graph](https://github.com/user-attachments/assets/72fb5e8b-9524-4b7a-bffa-16d33cd1408f)
 
 ##### "Sustainable"
+![Sustainable Map](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
+![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
+![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
 
 #### Energy Themes
 
