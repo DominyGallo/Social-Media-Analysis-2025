@@ -210,8 +210,9 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
 #### Post-Growth Discourse
 
 ###### "Steady-State"
-![Steady State - Map](![newplot (2)](https://github.com/user-attachments/assets/479fa6c2-efde-4067-9fda-cc3a7ea3eecc)
-![Steady State - Sub-Region Graph](![steady_State_region](https://github.com/user-attachments/assets/691f0ed7-3a87-45ce-99a4-3150572bbef7)
+![Steady State - Map](https://github.com/user-attachments/assets/75133fe4-b9be-4c08-bca3-c01c5c889faa)
+![Steady State - Sub-Region Graph](https://github.com/user-attachments/assets/7a36c452-cabc-4172-8e0c-20c2ca950f39)
+
 
 ##### "Planetary Boundaries"
 ![Planetary Boundaries - Map](https://github.com/user-attachments/assets/efa4f6af-5722-410d-afe6-bdd6b0e83d44)
