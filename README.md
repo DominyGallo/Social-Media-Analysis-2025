@@ -216,7 +216,7 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
 
 
 ##### "Planetary Boundaries"
-![Planetary Boundaries - Map]!(https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
+![Planetary Boundaries - Map](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
 
 ![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
 
