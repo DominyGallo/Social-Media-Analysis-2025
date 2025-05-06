@@ -12,7 +12,7 @@ x-label: Average "[Word]" Count
 
 MAP STYLING
 
-Average Normalized Count of '[Word]' by Country
+Normalized Count of '[Word]' by Country
 
 
 ## Data Processing
