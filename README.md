@@ -95,6 +95,12 @@ Next, we started counting words and phrases in the "text_content" column. For wo
         print(f"Column '{col_name}' created successfully.")
         return df
 
+        # Running the code
+        df = normalize_word_count(df, target_word = '[word]', normalization = 'nonstopword_count')
+
+        # Converting the dataframe back to a CSV
+        df.to_csv('/content/drive/Shareddrives/NDC_txts/Reg_NDC_1.csv', index=False)
+
 For phrases, the process is similar. The code below can handle multiple phrases at at time.
 
     nlp = spacy.load("en_core_web_sm")
@@ -134,22 +140,29 @@ For phrases, the process is similar. The code below can handle multiple phrases 
     
         return df
 
-We subsequently prepared two visualizations: bar charts, disagreggated by indicators such as income level and sub-region, and cloropleth maps, which use the country codes. 
+        # Defining the phrases and running the code
+        phrases = ["[phrase 1]", "[phrase 2]", "[phrase 3]"]
+        df = normalize_multi_phrase_count(df, phrases, normalization = 'nonstopword_count')
 
-For a single word, we create a bar chart by grouping the average normalized word count for a given word by the selected indicator—in this case, sub-region—and plotting it.
+        # Converting the dataframe back to a CSV
+        df.to_csv('/content/drive/Shareddrives/NDC_txts/Reg_NDC_1.csv', index=False)
+
+We subsequently prepared two visualizations: bar charts, disagreggated by indicators such as income level and sub-region, and cloropleth maps, which use the ISO 3166-1 alpha 3 country codes. 
+
+For a single word, we generated a bar chart by grouping the average normalized word count for a given word by the selected indicator and plotting it.
 
         import matplotlib.pyplot as plt
         
-        # Assuming 'Sub-region Name' is a column in the DataFrame 'df', and we want to plot the 'growth_count' by 'Party':
+        # Assuming '[Indicator]' is a column in the DataFrame 'df', and we want to plot the '[word]_count' by '[Indicator]':
         
-        # Group the DataFrame by 'Sub-region Name' and calculate the mean growth count for each party
-        subregion_[word]_counts = df.groupby('Sub-region Name')['[word]_count_normalized'].mean()
+        # Group the DataFrame by '[Indicator]' and calculate the mean growth count for each [indicator]
+        [Indicator]_[word]_counts = df.groupby('[Indicator]')['[word]_count_normalized'].mean()
         
         # Create the plot
         plt.figure(figsize=(10, 6))
-        subregion_[word]_counts.plot(kind='bar')
-        plt.title('Average ["Word"] Count per Sub-region')
-        plt.xlabel('Sub-region Name')
+        [Indicator]_[word]_counts.plot(kind='bar')
+        plt.title('Average ["Word"] Count by [Indicator]')
+        plt.xlabel('[Indicator]')
         plt.ylabel('Average ["Word"] Count')
         plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
         plt.tight_layout()
@@ -161,7 +174,7 @@ To create a chloropleth map, we used the following code:
         
         fig = px.choropleth(
             df,
-            locations="Code",                   # Name of the column with ISO alpha-3 codes
+            locations="Code",                   # Name of the column with ISO 3166-1 alpha-3 codes
             color="[word]_count_normalized",    # Variable represented by color
             hover_name="Party",                 # Information displayed when hovering over each country
             color_continuous_scale="Viridis",   # Color Palette
