@@ -246,7 +246,12 @@ We found that the phrase "planetary boundaries" is only used in Cabo Verde and L
 
 #### Policy Discourse (?)
 ##### "Mitigation"
+![Mitigation](https://github.com/user-attachments/assets/43bc7340-b7d7-400c-9787-05abafc2b096)
+![Mitigation - Sub-Region Graph](https://github.com/user-attachments/assets/0036265e-409f-48a7-a12f-0c88fe2f6988)
+![Mitigation - Income Level Graph](https://github.com/user-attachments/assets/a8933767-579a-442a-9169-5c2124a6d39f)
+
 ##### "Adaptation"
+
 ##### "Disaster"
 
 ### Regression Analysis
