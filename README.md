@@ -216,8 +216,7 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
 ![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
 ![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
 
-
-We found that "Planetary Boundaries" is only used in 
+We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
 
 ### Energy Themes
 
