@@ -252,18 +252,23 @@ Relatedly, the next group of words have to do with the prevalence of "innovation
 ![private - graph - subregion](https://github.com/user-attachments/assets/76ec638e-7d84-40ba-8493-07a4831c6f96)
 ![private - graph - income level](https://github.com/user-attachments/assets/4fb6d827-4338-4201-9ff0-6296931e6d64)
 
-### Visualizations: Regulation
+### Visualizations: Limits
 
-By contrast, we also considered the role of "regulation."
+We considered the idea of limitations, such as the principle of the "sustainable" and the role of "regulation."
 
 #### "Regulation
 ![regulation - map](https://github.com/user-attachments/assets/237bb907-3db6-4731-be64-adb786ef7b1e)
 ![regulation - graph - subregion](https://github.com/user-attachments/assets/29ad570a-7ba7-4553-942a-a399ba21af95)
 
+#### "Sustainable"
+![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
+
+![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
+![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
 
 ### Visualizations: Energy
 
-We tested a set of words associated with energy policy, including "fossil fuels," "energy transition," and "clean energy."
+We tested a set of words associated with **energy** sources, including "fossil fuels," "energy transition," and "clean energy."
 
 ##### "Fossil Fuels"
 ![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
@@ -282,13 +287,6 @@ We tested a set of words associated with energy policy, including "fossil fuels,
 
 ![Clean Energy - Sub-Region Graph](https://github.com/user-attachments/assets/65a0649c-2f42-46d5-982e-063b4dd09a61)
 ![Clean Energy - Income Level Graph](https://github.com/user-attachments/assets/bf8b916f-139c-4035-ac4e-193d18320c73)
-
-
-#### "Sustainable"
-![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
-
-![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
-![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
 
 ### Visualizations: Prevention vs. Disaster Management
 
