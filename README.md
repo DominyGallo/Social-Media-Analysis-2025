@@ -17,15 +17,13 @@ Normalized Count of '[Word]' by Country
 
 ## Data Processing
 
-## Results
+## Word Frequency
 
-### Word Frequency
+## Topic Modeling
 
-### Topic Modeling
+## Counting Words
 
-### Counting Words
-
-#### Method
+### Method
 
 We created a folder of NDC .txt files and a .csv file with a "filename" column containing the title of each .txt file in the folder, indexed to country codes. Next, we loaded the .csv file into a dataframe and defined a read_text function to read the .txt file corresponding to each title in the "filename" column of the .csv. The resulting dataframe includes a "text_content" column with the content of each NDC.
 
@@ -97,7 +95,7 @@ Next, we started counting words and phrases in the "text_content" column. For wo
         print(f"Column '{col_name}' created successfully.")
         return df
 
-For phrases, the process is similar.
+For phrases, the process is similar. The code below can handle multiple phrases at at time.
 
     nlp = spacy.load("en_core_web_sm")
     nlp.max_length = 2000000
@@ -145,11 +143,11 @@ For a single word, we create a bar chart by grouping the average normalized word
         # Assuming 'Sub-region Name' is a column in the DataFrame 'df', and we want to plot the 'growth_count' by 'Party':
         
         # Group the DataFrame by 'Sub-region Name' and calculate the mean growth count for each party
-        party_[word]_counts = df.groupby('Sub-region Name')['[word]_count_normalized'].mean()
+        subregion_[word]_counts = df.groupby('Sub-region Name')['[word]_count_normalized'].mean()
         
         # Create the plot
         plt.figure(figsize=(10, 6))
-        party_[word]_counts.plot(kind='bar')
+        subregion_[word]_counts.plot(kind='bar')
         plt.title('Average ["Word"] Count per Sub-region')
         plt.xlabel('Sub-region Name')
         plt.ylabel('Average ["Word"] Count')
@@ -205,80 +203,120 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
         # Display the list of countries
         print("Countries with 'planetary boundaries' in their NDCs:", countries)
         
-### Visualizations
+### Visualizations: Post-Growth
 
-#### Post-Growth Discourse
+The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse,** such as "steady state," recognition of "planetary boundaries," "degrowth,"  [...]
 
-###### "Steady-State"
-![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
-
+#### "Steady State"
+![Planetary Boundaries](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
 ![Steady State - Sub-Region Graph](https://github.com/user-attachments/assets/7a36c452-cabc-4172-8e0c-20c2ca950f39)
 
-##### "Planetary Boundaries"
-![Planetary Boundaries](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
+We found that the phrase "steady state" is only used in Barbados. 
+
+#### "Planetary Boundaries"
+![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
 
 ![Planetary Boundaries - Graph](https://github.com/user-attachments/assets/9783ae93-aa73-43aa-9523-6976b968ce73)
 ![Planetary Boundaries - Sub-Region Graph](https://github.com/user-attachments/assets/4323ff8c-aba6-4927-9ff4-2254d169494c)
 
 We found that the phrase "planetary boundaries" is only used in Cabo Verde and Liberia. 
 
-##### "Degrowth", "Consumption" ?
+The word "degrowth" appears nowhere in the corpus.
 
-#### Traditional economics discourse (?)
+### Visualizations: Economic Growth and Development
 
-##### "Economic Growth"
+We tested another set of terms associated with "**economic growth,**" including "green growth," "development"
+
+#### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
 
 ![Economic Growth - Income Level Graph](https://github.com/user-attachments/assets/2cc21053-929f-4f2f-8ba8-0e7f0a905db2)
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
 
-##### "Green Growth"
+#### "Green Growth"
 ![Green Growth](https://github.com/user-attachments/assets/9c721547-23fd-4875-8cb7-9b76b05938bb)
 
 ![Green Growth - Income Level Graph](https://github.com/user-attachments/assets/6650b4d4-e3ee-4bf0-946c-d853a1f3bf7a)
 ![Green Growth - Sub-Region Graph](https://github.com/user-attachments/assets/72fb5e8b-9524-4b7a-bffa-16d33cd1408f)
 
-##### "Sustainable"
-![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
+#### "Development"
+![Development - map](https://github.com/user-attachments/assets/bd47e411-c00b-4a35-b060-f2721e37f6ba)
+![Development - Graph - subregion](https://github.com/user-attachments/assets/b0254d2b-9d56-4a7c-a58c-81847c1c4d36)
+![Development - Graph - income](https://github.com/user-attachments/assets/10738598-1f0e-4149-bbfb-cd286fcdc89e)
 
-![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
-![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
+### Visualizations: The Private Sector
 
-#### Energy Themes
+Relatedly, the next group of words have to do with the prevalence of "innovation," "technology," and the "private" sector in the NDCs.
 
-###### "Fossil Fuels"
+#### "Innovation"
+![innovation - map](https://github.com/user-attachments/assets/6ead6998-8c93-4b8a-a5b7-39a34a4e4703)
+![innovation - graph - subregion](https://github.com/user-attachments/assets/77b9f22e-6a6e-4f70-9b7c-40d4f94517a9)
+![innovation - graph - income](https://github.com/user-attachments/assets/4906f51d-48fe-4109-9a88-3e47676c0794)
+
+#### "Technology"
+![technology - map](https://github.com/user-attachments/assets/a3c21c8a-bcd8-40cb-9561-dbbf0f683f37)
+![technology - graph - subregion](https://github.com/user-attachments/assets/99f1fc72-b63d-4ac5-8d1d-c40be9473a14)
+
+#### "Private"
+![private - map](https://github.com/user-attachments/assets/73fc9aa8-b167-4e41-9025-7835e4c6d451)
+![private - graph - subregion](https://github.com/user-attachments/assets/76ec638e-7d84-40ba-8493-07a4831c6f96)
+![private - graph - income level](https://github.com/user-attachments/assets/4fb6d827-4338-4201-9ff0-6296931e6d64)
+
+### Visualizations: Regulation
+
+By contrast, we also considered the role of "regulation."
+
+#### "Regulation
+![regulation - map](https://github.com/user-attachments/assets/237bb907-3db6-4731-be64-adb786ef7b1e)
+![regulation - graph - subregion](https://github.com/user-attachments/assets/29ad570a-7ba7-4553-942a-a399ba21af95)
+
+
+### Visualizations: Energy
+
+We tested a set of words associated with energy policy, including "fossil fuels," "energy transition," and "clean energy."
+
+##### "Fossil Fuels"
 ![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
 
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
 ![Fossil Fuels - Sub-Region Graph](https://github.com/user-attachments/assets/d78578d4-d341-4e3f-8060-858ec7f362e0)
 
-##### "Energy Transition"
+#### "Energy Transition"
 ![Energy Transition](https://github.com/user-attachments/assets/37d9e460-55aa-45db-a450-ca2d28f9f1b3)
 
 ![Energy Transition - Income Level Graph](https://github.com/user-attachments/assets/2a55b3af-4328-43a6-a859-dfec6528a8dd)
 ![Energy Transition - Sub-Region Graph](https://github.com/user-attachments/assets/849745ba-4c6e-4bd5-8ebb-e04ca6e422ea)
 
-##### "Clean Energy"
+#### "Clean Energy"
 ![Clean Energy](https://github.com/user-attachments/assets/7701a25b-9de5-40c1-b563-9b7b54c8c049)
 
 ![Clean Energy - Sub-Region Graph](https://github.com/user-attachments/assets/65a0649c-2f42-46d5-982e-063b4dd09a61)
 ![Clean Energy - Income Level Graph](https://github.com/user-attachments/assets/bf8b916f-139c-4035-ac4e-193d18320c73)
 
 
-#### Policy Discourse (?)
-##### "Mitigation"
+#### "Sustainable"
+![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
+
+![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
+![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
+
+### Visualizations: Prevention vs. Disaster Management
+
+We finally considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change, such as "disaster."
+
+#### "Mitigation"
 ![Mitigation](https://github.com/user-attachments/assets/ec285821-07df-46b6-8ab6-f6b5af687fcd)
 
 ![Mitigation - Sub-Region Graph](https://github.com/user-attachments/assets/0036265e-409f-48a7-a12f-0c88fe2f6988)
 ![Mitigation - Income Level Graph](https://github.com/user-attachments/assets/a8933767-579a-442a-9169-5c2124a6d39f)
 
-##### "Adaptation"
+#### "Adaptation"
 ![Adaptation](https://github.com/user-attachments/assets/b9310e27-418a-4a53-baaa-9b9b69dbc52e)
 
 ![Adaptation - Sub-Region Graph](https://github.com/user-attachments/assets/8655cf6d-bc4d-41f0-b26c-335030eebfae)
 ![Adaptation - Income Level Graph](https://github.com/user-attachments/assets/681b7db4-5052-4a8f-8d22-3c83f4b6b522)
 
-##### "Disaster"
+#### "Disaster"
 ![Disaster](https://github.com/user-attachments/assets/d180ad76-39a0-4e8c-8746-033d364f6be6)
 
 ![Disaster - Sub Region Graph](https://github.com/user-attachments/assets/3134cda9-c48e-4739-9ab3-b9b04ffc0483)
