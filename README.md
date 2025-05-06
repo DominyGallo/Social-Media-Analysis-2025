@@ -230,7 +230,7 @@ We then tested the more traditional phrases "economic growth" and "development."
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
 
 #### "Development"
-![Development - map](https://github.com/user-attachments/assets/bd47e411-c00b-4a35-b060-f2721e37f6ba)
+![development - map2](https://github.com/user-attachments/assets/06b14a73-eb84-4dec-9de7-25834faf0889)
 ![Development - Graph - subregion](https://github.com/user-attachments/assets/56415471-bc27-4f4e-8123-184b9f58ed3d)
 ![Development - Graph - income](https://github.com/user-attachments/assets/104476c6-b3c3-443c-b856-6f0ab4dba236)
 
