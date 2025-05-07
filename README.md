@@ -521,7 +521,7 @@ Having demonstrated the lack of terms from discourses critical of economic growt
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
 
-As visible in the sub-region graph, “economic growth” appears most commonly in North American NDCs; from the map, we can observe that this is primarily accounted for by the United States. The phrase is least prevalent in Northern Europe. It is interesting that the three clusterings of Pacific island states have such different counts for the phrase: Polynesia has the second-lowest count and Micronesia the second-highest of all NDCs, with Melanesia in the middle.  On the map, we observe that Brazil, Saudi Arabia, some sub-saharan African states, and Australia include some degree of “economic growth” discourse, but there are not clearly discernible broad regional patterns.
+As visible in the sub-region graph, “economic growth” appears most commonly in North American NDCs; from the map, we can observe that this is primarily accounted for by the United States. The phrase is least prevalent in Northern Europe. It is interesting that the three clusterings of Pacific island states have such different counts for the phrase: Polynesia has the second-lowest count and Micronesia the second-highest of all NDCs, with Melanesia in the middle.  On the map, we observe that Brazil, Saudi Arabia, some sub-saharan African states, and Australia include some degree of “economic growth” discourse, but there are not clearly discernible broad regional patterns. In general, however, it is relatively infrequent in comparison with other terms, explored below.
 
 
 #### "Development"
@@ -569,12 +569,6 @@ Interestingly, in spite of the over-representation of the term in the high-GDP s
 ![regulation - graph - subregion](https://github.com/user-attachments/assets/29ad570a-7ba7-4553-942a-a399ba21af95)
 
 This map indicates that regulation is prevalent almost exclusively in European NDCs. It appears almost nowhere else.
-
-#### "Sustainable" WHERE TO PUT THIS
-![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
-
-![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
-![Sustainable - Sub-Region Graph](https://github.com/user-attachments/assets/65369869-c3e7-4ee9-9881-f470c7943f55)
 
 ### Visualizations: Energy
 
