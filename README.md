@@ -113,14 +113,14 @@ Be sure to modify this according to your path folder!
 This allows us to filter out any punctuation and stop_words in our corpus:
 
     for filename in os.listdir(text_folder):
-    if filename.endswith(".txt"):
-        filepath = os.path.join(text_folder, filename)
-        with open(filepath, "r", encoding="utf-8") as f:
-            text = f.read().lower()
-            text = text.translate(str.maketrans("", "", string.punctuation))
-            words = text.split()
-            filtered_words = [word for word in words if word not in stop_words and word.isalpha()]
-            all_words.extend(filtered_words)
+        if filename.endswith(".txt"):
+            filepath = os.path.join(text_folder, filename)
+            with open(filepath, "r", encoding="utf-8") as f:
+                text = f.read().lower()
+                text = text.translate(str.maketrans("", "", string.punctuation))
+                words = text.split()
+                filtered_words = [word for word in words if word not in stop_words and word.isalpha()]
+                all_words.extend(filtered_words)
 
     word_counts = Counter(all_words)
     top_25_words = word_counts.most_common(25)
