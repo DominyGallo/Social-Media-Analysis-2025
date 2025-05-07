@@ -77,7 +77,7 @@ The next step was to gather  the documents in a way where analysis could be made
     
 In order to maintain the connection between the indicators CSV and the files in ndc_txts, we manually added a column for each txt file name in the format [Country].txt. This work was divided amongst the team members. 
 
-Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. 
+Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. Please see the annex to this page for a discussion of how we checked for translation accuracy. 
 
 *Here is a visual representation of our dataset*:
 ![Table with NDCs and Indicators](https://github.com/user-attachments/assets/f2476686-deb2-42f1-b3bc-b550e73ed4eb)
