@@ -25,7 +25,7 @@ As not all countries have provided multiple rounds of NDCs, we selected the most
 
 To this refined CSV file, we added further indicators for each country. GDP data in USD was obtained from the World Bank: [https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?view=chart]. From UN statistics, we obtained region, sub-region and designation as Least Developed Countries (LDC), Small Island Developing States (SIDS), or neither. As LDC or SIDS designation was noted as a tick box in the UN data, we coded 1 for yes and 0 for no in our CSV. The same was done for OECD membership by cross referencing the members list from their website: [https://www.oecd.org/en.html]. Data was also taken from the UNDP Human Development Index: [https://hdr.undp.org/data-center/human-development-index#/indicies/HDI]. In Google Sheets, data from these various datasets were added in separate tabs alongside the ndcs Github download. Then, due to the common use of ISO 3-letter country codes by the UNFCCC, UN Stats, and World Bank across the datasets, it was possible to use VLOOKUP functions to add columns for these indicators in the master sheet. The HDI did not include these codes, therefore a VLOOKUP was done on the country name; any formula errors due to differences in country name spelling or abbreviation were corrected manually. 
 
-The next step was to gather  the documents in a way where analysis could be made, through either word frequency, topic modelling, counting words or experimenting with regressions. Thus, to allow our readers to potentially replicate this, we have included here our process and code to obtain readable txt files from the NDC URLs:
+The next step was to gather the documents in a way where we could make an analysis, through either word frequency, topic modelling, counting words or experimenting with regressions. Thus, to allow our readers to potentially replicate this, we have included here our process and code to obtain readable txt files from the NDC URLs:
 
 ### Code:
 
@@ -75,9 +75,9 @@ The next step was to gather  the documents in a way where analysis could be made
     shutil.copytree(source_folder, destination_folder)
     print(f"Folder copied to: {destination_folder}")
     
-In order to maintain the connection between the indicators CSV and the files in ndc_txts, we manually added a column for each txt file name in the format [Country].txt. This work was divided amongst the team members. 
+In order to maintain the connection between the indicators (in the CSV spreadsheet) and the files in ndc_txts, we manually added a column for each txt file name in the format [Country].txt. This work was divided amongst the team members. 
 
-Note: all NDC files not in English (i.e. Spanish, French, or Arabic documents) were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. Please see the annex to this page for a discussion of how we checked for translation accuracy. 
+Note:  all NDC files not in English (i.e. Spanish, French, or Arabic documents) were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. Please see the annex to this page for a discussion of how we checked for translation accuracy. 
 
 *Here is a visual representation of our dataset*:
 ![Table with NDCs and Indicators](https://github.com/user-attachments/assets/f2476686-deb2-42f1-b3bc-b550e73ed4eb)
@@ -163,7 +163,7 @@ With this code, we obtained the following results:
 
 These words will inspire us when it comes to choosing the key words we will pursue in greater depth throughout our analysis.
 
-For reference, the following is the code used in order to determine the top 10 words used for each NDC.
+For reference, the following code was used to determine the top 10 words used for each NDC.
 
 ### Code to calculate the top 10 words for each NDC:
     import os
@@ -203,7 +203,7 @@ Display results:
         for word, count in top_words:
             print(f"   {word}: {count}")
 
-*If you have the chance, we recommend taking a glance at the results that appear!* For instance, just so you may have an idea, here are some examples of the top words of the NDCs of Cambodia, Canada, Indonesia and Turkmenistan.
+*If you have the chance, we recommend taking a glance at the results that appear!* For instance, just so you may have an idea, here are some examples of the top words of the NDCs of Cambodia, Canada, Indonesia and Turkmenistan (these results can also be found in our ipynb file titled "Word_Frequency.ipynb").
 
 ![Cambodia](https://github.com/user-attachments/assets/7593d7ac-0390-47e0-a24e-6d7d5bab0c6d)
 ![Canada](https://github.com/user-attachments/assets/4ba75e2a-543c-4df1-a5e8-76256b4556b5)
@@ -211,14 +211,14 @@ Display results:
 ![Turkmenistan](https://github.com/user-attachments/assets/8c112bc2-bb67-47dc-b693-84842a43da53)
 
 #### Analysis
-- As can be seen, interestingly, Cambodia is one of the few NDCs where the terms "gender" and "women" is in the top 10 words used. It's important to note that these words are even used more often than the name of the country itself!
+- As can be seen, interestingly, Cambodia is one of the few NDCs where the terms "gender" and "women" are in the top 10 words used. It's important to note that these words are even used more often than the name of the country itself!
 - When it comes to Canada, it seems pertinent that reference to "indigenous" people and most likely "first Nations" is in the top words used. It shows how the specific political context of states can be reflected through their priorities in their NDCs.
 - In the case of Indonesia, it is interesting that "development" and "ecosystem" are in the top words used. While it is not surprising, it does suggest how important it is for Indonesia to 'adapt' to 'climate change', and to 'implement' 'change' as needed.
 - Last but not least, Turkmenistan's top words are related to resources, with reference to "energy", "gas" and "water". This can perhaps shed some light as to what are the priorities of this country when it comes to framing its NDC.
 
 ## Topic Modeling
 
-For topic modeling, we aimed to see what were the general topics that were formed across NDCs, by using BERTopic modeling. As the language employed by NDCs can be quite similar, the parameters for the BERTopic used had to be modified and played with in order to get pertinent results.
+For topic modeling, we aimed to see what were the general topics that were formed across NDCs, by using BERTopic modeling. As the language employed by NDCs can be quite similar, the parameters for the BERTopic model had to be modified and adjusted in order to obtain pertinent results.
 
 ### Code:
     # load libraries
