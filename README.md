@@ -153,7 +153,43 @@ With this code, we obtained the following results:
 
 These words will inspire us when it comes to choosing the key words we will pursue in greater depth throughout our analysis.
 
+For reference, the following is the code used in order to determine the top 10 words used for each NDC.
 
+### Code:
+    import os
+    import string
+    from collections import Counter
+    from nltk.corpus import stopwords
+    
+    text_folder = "/content/drive/Shareddrives/NDC_txts"
+    stop_words = set(stopwords.words("english"))
+    word_freq_by_file = {}
+    
+    # Loop through each text file
+    for filename in os.listdir(text_folder):
+        if filename.endswith(".txt"):
+            filepath = os.path.join(text_folder, filename)
+            with open(filepath, "r", encoding="utf-8") as f:
+                text = f.read().lower()
+    
+                # Remove punctuation and split into words
+                text = text.translate(str.maketrans("", "", string.punctuation))
+                words = text.split()
+    
+                # Remove stopwords
+                filtered_words = [word for word in words if word not in stop_words and word.isalpha()]
+    
+                # Count word frequencies
+                word_counts = Counter(filtered_words)
+    
+                # Save top 10 words
+                word_freq_by_file[filename] = word_counts.most_common(10)
+    
+    # Display results
+    for file, top_words in word_freq_by_file.items():
+        print(f"\n📄 Top words in {file}:")
+        for word, count in top_words:
+            print(f"   {word}: {count}")
 
 ## Topic Modeling
 
