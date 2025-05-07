@@ -607,7 +607,7 @@ The phrase “clean energy” is another term most prevalent by far in the Unite
 
 ### Visualizations: Mitigation v. Adaptation
 
-We finally considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change, such as "disaster."
+We next considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change.
 
 #### "Mitigation"
 ![Mitigation](https://github.com/user-attachments/assets/ec285821-07df-46b6-8ab6-f6b5af687fcd)
@@ -624,6 +624,8 @@ A cursory look at the graph reveals that “mitigation,” or prevention of clim
 “Adaptation” reveals a slightly different picture. It is similarly least prevalent in Europe, North America, and New Zealand, but Russia and China break from the “mitigation” trend and do make reference to “adaptation.” It is most prevalent in Melanesia, then Central Asia, followed by Northern Africa, Latin America and the Caribbean, South-eastern Asia, and finally Sub-Saharan Africa. Within Latin America, interestingly, Brazil includes rather few references while Argentina, Uruguay, Colombia, Ecuador, and Peru include more frequent notes.
 
 ### Visualizations: Land-Related Discourses
+
+Finally, we look into terms that have more geographically specific relevance, such as "disaster," "agriculture," and "water."
 
 #### "Disaster"
 ![Disaster](https://github.com/user-attachments/assets/d180ad76-39a0-4e8c-8746-033d364f6be6)
