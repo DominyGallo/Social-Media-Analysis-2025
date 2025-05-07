@@ -23,6 +23,8 @@ Website: [https://unfccc.int/NDCRE]
 
 There were however some challenges in obtaining these files in a way where analysis could be made, through either word frequency, topic modelling, counting words or experimenting with regressions. Thus, to allow our readers to potentially replicate this, we have included here our code to access these resources:
 
+### Code:
+
     #Download the following
     import os
     print(os.listdir())
@@ -118,32 +120,36 @@ In this next section, we will write out the code we used to find the top 25 word
         print(f"  {word}: {count}")
 
 With this code, we obtained the following results:
+
 *Top 25 words across all NDCs:*
-  climate: 27905
-  change: 17122
-  national: 16078
-  emissions: 14586
-  energy: 12435
-  ndc: 11813
-  adaptation: 11524
-  development: 11393
-  sector: 10952
-  mitigation: 8531
-  contribution: 7352
-  implementation: 7293
-  management: 6965
-  water: 6880
-  measures: 6617
-  determined: 6199
-  ghg: 6023
-  nationally: 5603
-  actions: 5493
-  sectors: 5463
-  including: 5451
-  sustainable: 5407
-  use: 5266
-  reduction: 5183
-  information: 5124
+
+| Top Word | Count |
+| --- | --- |
+|climate | 27905 |
+  change | 17122
+  national | 16078
+  emissions | 14586
+  energy | 12435
+  ndc | 11813
+  adaptation | 11524
+  development | 11393
+  sector | 10952
+  mitigation | 8531
+  contribution | 7352
+  implementation | 7293
+  management | 6965
+  water | 6880
+  measures | 6617
+  determined | 6199
+  ghg | 6023
+  nationally | 5603
+  actions | 5493
+  sectors | 5463
+  including | 5451
+  sustainable | 5407
+  use | 5266
+  reduction | 5183
+  information | 5124
 
 These words will inspire us when it comes to choosing the key words we will pursue in greater depth throughout our analysis.
 
