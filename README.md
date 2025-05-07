@@ -241,6 +241,8 @@ Download BERTopic
     from umap import UMAP
     from hdbscan import HDBSCAN
     from sklearn.feature_extraction.text import CountVectorizer
+
+After this script runs, documents will be a list of strings, where each string is the full content of one .txt file in the folder.
         
     text_folder = "/content/drive/Shareddrives/NDC_txts"
     documents = []  # Initialize an empty list to store your documents
