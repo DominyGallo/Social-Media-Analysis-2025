@@ -660,7 +660,15 @@ Finally, we observe a strip of land in Central Asia, the Middle East, and Africa
 ![23-08-02-aqueduct-4 0-launch-global-countries-baseline_Insights](https://github.com/user-attachments/assets/5b9aab85-bba7-41bb-9366-d5ea31e234ba)
 
 
-### Regression Analysis
+## Regression Analysis
+
+--> perhaps an explanation of why we want to do a regression analysis?
+
+### Method
+
+--> insert code + painstaking process of having to complement to the csv file
+
+### *insert* Chloe's beautiful heatmap
 
 ## Discussion
 
