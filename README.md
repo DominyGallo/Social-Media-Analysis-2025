@@ -193,10 +193,16 @@ For reference, the following is the code used in order to determine the top 10 w
 
 *If you have the chance, we recommend taking a glance at the results that appear!* For instance, just so you may have a glance, here are some examples of the top words of the NDCs of Cambodia, Canada, Indonesia and Turkmenistan.
 
-![Cambodia](https://github.com/user-attachments/assets/97fd765c-c905-4390-90e1-4ac850ea668f)
+![Cambodia](https://github.com/user-attachments/assets/7593d7ac-0390-47e0-a24e-6d7d5bab0c6d)
 ![Canada](https://github.com/user-attachments/assets/4ba75e2a-543c-4df1-a5e8-76256b4556b5)
 ![Indonesia](https://github.com/user-attachments/assets/8ac76ed4-89d6-4177-83cb-f47c00355b62)
 ![Turkmenistan](https://github.com/user-attachments/assets/8c112bc2-bb67-47dc-b693-84842a43da53)
+
+#### Analysis
+- As can be seen, interestingly, Cambodia is one of the few NDCs where the terms "gender" and "women" is in the top 10 words used. It's important to note that these words are even used more often than the name of the country itself!
+- When it comes to Canada, it seems pertinent that reference to "indigenous" people and most likely "first Nations" is in the top words used. It shows how the specific political context of states can be reflected through their priorities in their NDCs.
+- In the case of Indonesia, it is interesting that "development" and "ecosystem" are in the top words used. While it is not surprising, it does suggest how important it is for Indonesia to 'adapt' to 'climate change', and to 'implement' 'change' as needed.
+- Last but not least, Turkmenistan's top words are related to resources, with reference to "energy", "gas" and "water". This can perhaps shed some light as to what are the priorities of this country when it comes to framing its NDC.
 
 ## Topic Modeling
 
