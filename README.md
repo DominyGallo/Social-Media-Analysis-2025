@@ -78,12 +78,75 @@ Furthermore, we then added indicators to our data points, on our CSV file, inclu
 
 ## Word Frequency
 
-As a next step in our process, we felt it was necessary to determine what were our 
+As a next step in our process, we felt it was necessary to determine what were our top words across all NDCs, but then also according to specific documents, in order to get a glimpse into the different NDCs, and their topics of interest.
+
+In this next section, we will write out the code we used to find the top 25 words across all NDCs:
 
 ### Code:
 
     #Before starting, be sure to mount your drive if all of your txt files are on your drive!
+    from google.colab import drive
+    drive.mount('/content/drive')
+
+    #Be sure to import the following (allows us to remove stopwords and access the words used across the NDCs)
+    import os
+    from collections import Counter
+    from nltk.corpus import stopwords
+    import string
+
+    #Be sure to modify this according to your path folder!
+    text_folder = "/content/drive/Shareddrives/NDC_txts"  # Make sure this path is correct
+    stop_words = set(stopwords.words("english"))
+    all_words = []
+
+    #This allows us to filter out any punctuation and stop_words in our corpus:
+    for filename in os.listdir(text_folder):
+    if filename.endswith(".txt"):
+        filepath = os.path.join(text_folder, filename)
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read().lower()
+            text = text.translate(str.maketrans("", "", string.punctuation))
+            words = text.split()
+            filtered_words = [word for word in words if word not in stop_words and word.isalpha()]
+            all_words.extend(filtered_words)
+
+    word_counts = Counter(all_words)
+    top_25_words = word_counts.most_common(25)
     
+    print("\nTop 25 words across all NDCs:")
+    for word, count in top_25_words:
+        print(f"  {word}: {count}")
+
+With this code, we obtained the following results:
+*Top 25 words across all NDCs:*
+  climate: 27905
+  change: 17122
+  national: 16078
+  emissions: 14586
+  energy: 12435
+  ndc: 11813
+  adaptation: 11524
+  development: 11393
+  sector: 10952
+  mitigation: 8531
+  contribution: 7352
+  implementation: 7293
+  management: 6965
+  water: 6880
+  measures: 6617
+  determined: 6199
+  ghg: 6023
+  nationally: 5603
+  actions: 5493
+  sectors: 5463
+  including: 5451
+  sustainable: 5407
+  use: 5266
+  reduction: 5183
+  information: 5124
+
+These words will inspire us when it comes to choosing the key words we will pursue in greater depth throughout our analysis.
+
 
 
 ## Topic Modeling
