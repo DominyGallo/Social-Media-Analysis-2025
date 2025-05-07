@@ -127,7 +127,7 @@ With this code, we obtained the following results:
 
 *Top 25 words across all NDCs:*
 
-| Top Word | Count |
+| Top 25 Words | Counts across NDCs |
 | --- | --- |
 |climate | 27905 |
   change | 17122
