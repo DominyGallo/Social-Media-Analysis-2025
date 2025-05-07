@@ -599,7 +599,7 @@ The phrase “clean energy” is another term most prevalent by far in the Unite
 ![renewable - graph - subregion](https://github.com/user-attachments/assets/78e39c1d-53ba-4bbd-bdac-23d21a4b74e8)
 ![renewable - graph - income](https://github.com/user-attachments/assets/a95460c1-872b-46b4-9013-d1535ab46621)
 
-
+“Renewable” occurs more frequently than “clean” as a denotation for “energy” across the board. It is least prevalent in Europe, Northern America, Eastern Asia, and Australia and New Zealand, and most prevalent in Polynesia, Micronesia, Melanesia, North Africa, and Western Asia, with a notably high prevalence in Saudi Arabia.  No correlation can be identified based on income.
 
 ### Visualizations: Prevention vs. Disaster Management
 
