@@ -86,22 +86,26 @@ In this next section, we will write out the code we used to find the top 25 word
 
 ### Code:
 
-    #Before starting, be sure to mount your drive if all of your txt files are on your drive!
+Before starting, be sure to mount your drive if all of your txt files are on your drive!
+
     from google.colab import drive
     drive.mount('/content/drive')
 
-    #Be sure to import the following (allows us to remove stopwords and access the words used across the NDCs)
+Be sure to import the following (allows us to remove stopwords and access the words used across the NDCs)
+
     import os
     from collections import Counter
     from nltk.corpus import stopwords
     import string
 
-    #Be sure to modify this according to your path folder!
+Be sure to modify this according to your path folder!
+
     text_folder = "/content/drive/Shareddrives/NDC_txts"  # Make sure this path is correct
     stop_words = set(stopwords.words("english"))
     all_words = []
 
-    #This allows us to filter out any punctuation and stop_words in our corpus:
+This allows us to filter out any punctuation and stop_words in our corpus:
+
     for filename in os.listdir(text_folder):
     if filename.endswith(".txt"):
         filepath = os.path.join(text_folder, filename)
@@ -165,7 +169,8 @@ For reference, the following is the code used in order to determine the top 10 w
     stop_words = set(stopwords.words("english"))
     word_freq_by_file = {}
     
-    # Loop through each text file
+ Then, loop through each text file:
+    
     for filename in os.listdir(text_folder):
         if filename.endswith(".txt"):
             filepath = os.path.join(text_folder, filename)
@@ -185,7 +190,8 @@ For reference, the following is the code used in order to determine the top 10 w
                 # Save top 10 words
                 word_freq_by_file[filename] = word_counts.most_common(10)
     
-    # Display results
+Display results:
+    
     for file, top_words in word_freq_by_file.items():
         print(f"\n📄 Top words in {file}:")
         for word, count in top_words:
@@ -216,11 +222,12 @@ For topic modeling, we aimed to see what were the general topics that were forme
     import matplotlib.pyplot as plt
     from sklearn.preprocessing import MultiLabelBinarizer
     
-   #You know the drill, mount your drive!
+You know the drill, mount your drive!
+    
     from google.colab import drive
     drive.mount('/content/drive', force_remount=True)
 
-    #download BERTopic
+Download BERTopic
     !pip install bertopic
 
     
