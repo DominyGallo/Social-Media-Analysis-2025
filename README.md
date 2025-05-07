@@ -251,7 +251,7 @@ After this script runs, documents will be a list of strings, where each string i
             with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
                 documents.append(f.read())  # Append the content of each file to the list
 
-Now 'documents' contains all the text from the .txt files. You can then proceed to generate the document_vectors using your model
+Now 'documents' contains all the text from the .txt files. You can then proceed to generate the document_vectors using your model:
     
     # Ensure embeddings are generated from the 'documents' list
     model = SentenceTransformer("all-MiniLM-L6-v2")
