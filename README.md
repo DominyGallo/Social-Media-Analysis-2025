@@ -215,7 +215,7 @@ Display results:
 For topic modeling, we aimed to see what were the general topics that were formed across NDCs, by using BERTopic modeling. As the language employed by NDCs can be quite similar, the parameters for the BERTopic used had to be modified and played with in order to get pertinent results.
 
 ### Code:
-    ## load libraries
+    # load libraries
     import spacy
     from tqdm import tqdm
     import pandas as pd
@@ -228,8 +228,37 @@ You know the drill, mount your drive!
     drive.mount('/content/drive', force_remount=True)
 
 Download BERTopic
+   
     !pip install bertopic
+    !pip install sentence_transformers
+    from sentence_transformers import SentenceTransformer
+    from bertopic import BERTopic
+    from umap import UMAP
+    from hdbscan import HDBSCAN
+    from sklearn.feature_extraction.text import CountVectorizer
+    import os
 
+Create a path to your CSV and folder with txt files. Be sure to adapt the code path to yours!
+
+    csv_path = "/content/drive/Shareddrives/NDC_txts/ndcs - sorted with indicators - All indicators (1) (1).csv"
+    txt_folder = "/content/drive/Shareddrives/NDC_txts"
+    
+    # Load your CSV
+    df = pd.read_csv(csv_path)
+    
+    # Function to read text from file
+    def read_text(filename):
+        file_path = os.path.join(txt_folder, filename)
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return f.read()
+        except FileNotFoundError:
+            return None  # or return "" if you prefer an empty string
+    
+    # Apply the function to the 'filename' column
+    df["text_content"] = df["filename"].apply(read_text)
+
+    df["text_content"]
     
 
 ### Analysis
