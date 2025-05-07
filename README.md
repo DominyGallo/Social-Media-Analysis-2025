@@ -73,10 +73,18 @@ Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were 
 
 Furthermore, we then added indicators to our data points, on our CSV file, including indicators related to region name, GDP per capita, HDI Index, etc. The sources for these datapoints are derived from the World Bank, UNSTATS and HDI).
 
-Here is a visual representation of our dataset:
+*Here is a visual representation of our dataset*:
 ![Table with NDCs and Indicators](https://github.com/user-attachments/assets/f2476686-deb2-42f1-b3bc-b550e73ed4eb)
 
 ## Word Frequency
+
+As a next step in our process, we felt it was necessary to determine what were our 
+
+### Code:
+
+    #Before starting, be sure to mount your drive if all of your txt files are on your drive!
+    
+
 
 ## Topic Modeling
 
@@ -381,11 +389,14 @@ We finally considered the prevalence of ideas like "mitigation," or reducing cli
 
 ## Discussion
 
-## Conclusion
-
 
 ### Regression Analysis
 
 ## Discussion
+
+### Limitations
+
+Our data is quite sparse -> tried to take into account the length of the NDC files.
+For Europe, all EU countries have the same NDC -> which might modify the data, we decided it would be pertinent to replicate it, which might make it difficult (word choice in these NDCs might thus be exaggerated), we tried to factor this in by focusing on sub-regions as point of analysis.
 
 ## Conclusion
