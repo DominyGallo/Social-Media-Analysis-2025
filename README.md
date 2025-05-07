@@ -564,7 +564,7 @@ The “private” graph presents the striking prevalence of private-sector solut
 
 Interestingly, in spite of the over-representation of the term in the high-GDP state of the US, the relative lack of prevalence in other high-GDP states (such as European states and China) reveal no correlation between income and prevalence of “private” sector ideas. Reliance on the private sector appears, that is, more a matter of cultural than purely economic traits.
 
-#### "Regulation
+#### "Regulation"
 ![regulation - map](https://github.com/user-attachments/assets/237bb907-3db6-4731-be64-adb786ef7b1e)
 ![regulation - graph - subregion](https://github.com/user-attachments/assets/29ad570a-7ba7-4553-942a-a399ba21af95)
 
