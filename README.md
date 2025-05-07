@@ -653,7 +653,7 @@ The word “agriculture” is most common in Central and Southern/Southeastern A
 #### "Water"
 ![water](https://github.com/user-attachments/assets/6672bbe5-cb4f-4043-aa28-296a66fd6490)
 
-Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term. The worldwide map, however, does not exactly correlate to a map of water stress (source: World Resources Institute):
+Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term. The worldwide map does not exactly correlate to a map of water stress, although there is some overlap (source: World Resources Institute):
 
 ![23-08-02-aqueduct-4 0-launch-global-countries-baseline_Insights](https://github.com/user-attachments/assets/5b9aab85-bba7-41bb-9366-d5ea31e234ba)
 
