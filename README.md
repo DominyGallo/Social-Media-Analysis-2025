@@ -163,7 +163,7 @@ These words will inspire us when it comes to choosing the key words we will purs
 
 For reference, the following is the code used in order to determine the top 10 words used for each NDC.
 
-### Code to ccalculate the top 10 words for each NDC:
+### Code to calculate the top 10 words for each NDC:
     import os
     import string
     from collections import Counter
