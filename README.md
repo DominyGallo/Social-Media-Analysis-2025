@@ -644,6 +644,10 @@ Moreover, high income states seem to have the lowest prevalence by far of the te
 ![Disaster - Income Level Graph](https://github.com/user-attachments/assets/3d5550f5-6a71-4937-9021-f11e11b1ca80)
 
 #### "Agriculture"
+![agriculture](https://github.com/user-attachments/assets/e0385802-90a2-487c-bda9-3a6bf945c926)
+![agriculture - graph - subregion](https://github.com/user-attachments/assets/5ddaac88-de1c-4379-b343-4cc6e2439322)
+![agriculture - graph - income](https://github.com/user-attachments/assets/35d695fd-48ed-4a2a-a728-95ed9a0f8342)
+
 
 #### "Water"
 
