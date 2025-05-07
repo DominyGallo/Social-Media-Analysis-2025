@@ -259,6 +259,44 @@ Create a path to your CSV and folder with txt files. Be sure to adapt the code p
     df["text_content"] = df["filename"].apply(read_text)
 
     df["text_content"]
+
+Attempt
+
+    import os
+    from sentence_transformers import SentenceTransformer
+    from bertopic import BERTopic
+    from umap import UMAP
+    from hdbscan import HDBSCAN
+    from sklearn.feature_extraction.text import CountVectorizer
+    
+    text_folder = "/content/drive/Shareddrives/NDC_txts"
+    documents = []  # Initialize an empty list to store your documents
+    for filename in os.listdir(text_folder):
+        if filename.endswith(".txt"):
+            with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
+                documents.append(f.read())  # Append the content of each file to the list
+    
+    # Now 'documents' contains all the text from the .txt files
+    # Proceed to generate the document_vectors using your model
+    
+    # Ensure embeddings are generated from the 'documents' list
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    document_vectors = model.encode(documents, show_progress_bar=True)
+    
+    # Define UMAP, HDBSCAN, and vectorizer before using them in BERTopic
+    umap_model = UMAP(n_neighbors=5, n_components=10, min_dist=0.0, metric='cosine', random_state=42)
+    umap_embeddings = umap_model.fit_transform(document_vectors)
+    hdbscan_model = HDBSCAN(min_cluster_size=2, metric='euclidean', cluster_selection_method='eom')
+    cluster_labels = hdbscan_model.fit_predict(umap_embeddings)
+    vectorizer = CountVectorizer(stop_words='english')
+    
+    topic_model = BERTopic(
+        embedding_model=model,
+        umap_model=umap_model,
+        hdbscan_model=hdbscan_model,
+        vectorizer_model=vectorizer,
+        verbose=True
+    ).fit(documents, document_vectors)
     
 
 ### Analysis
