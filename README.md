@@ -195,7 +195,7 @@ For reference, the following is the code used in order to determine the top 10 w
 
 ![Cambodia](https://github.com/user-attachments/assets/7593d7ac-0390-47e0-a24e-6d7d5bab0c6d)
 ![Canada](https://github.com/user-attachments/assets/4ba75e2a-543c-4df1-a5e8-76256b4556b5)
-![Indonesia](https://github.com/user-attachments/assets/8ac76ed4-89d6-4177-83cb-f47c00355b62)
+![Indonesia](https://github.com/user-attachments/assets/792a3c53-3207-4142-87c1-86a9de6efeb8)
 ![Turkmenistan](https://github.com/user-attachments/assets/8c112bc2-bb67-47dc-b693-84842a43da53)
 
 #### Analysis
@@ -205,6 +205,14 @@ For reference, the following is the code used in order to determine the top 10 w
 - Last but not least, Turkmenistan's top words are related to resources, with reference to "energy", "gas" and "water". This can perhaps shed some light as to what are the priorities of this country when it comes to framing its NDC.
 
 ## Topic Modeling
+
+For topic modeling, we aimed to see what were the general topics that were formed across NDCs. As the language employed by NDCs can be quite similar, the parameters for the BERTopic used had to be modified and played with in order to get pertinent results.
+
+
+
+
+#### Limitations
+As a next step, to ensure the reliability of results, it would be necessary to include code that would divide the txt files by paragraph. This would guarantee more accurate results than the ones we have obtained above. For the purposes of this project, the reliability of our topics is not concerning, as this modeling was used to inspire our selection of key words, alongside our top words across NDCs, rather than shaping our entire analysis. If you ever do manage to complete this step, we would be eager to see your results!
 
 ## Counting Words
 
