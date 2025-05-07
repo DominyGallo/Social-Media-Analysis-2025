@@ -266,7 +266,16 @@ Create a path to your CSV and folder with txt files. Be sure to adapt the code p
 #### Limitations
 As a next step, to ensure the reliability of results, it would be necessary to include code that would divide the txt files by paragraph. This would guarantee more accurate results than the ones we have obtained above. For the purposes of this project, the reliability of our topics is not concerning, as this modeling was used to inspire our selection of key words, alongside our top words across NDCs, rather than shaping our entire analysis. If you ever do manage to complete this step, we would be eager to see your results!
 
+
 ## Counting Words
+
+### Literature Review
+
+What words? Eco-social policy typology & themes in NDCs
+
+perhaps @Chloe can do this?
+
+--> perhaps help explaining which words we read --> based on the literature review done
 
 ### Method
 
