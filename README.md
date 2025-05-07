@@ -594,6 +594,13 @@ Brazil, the United Kingdom, and Cuba appear to have the highest prevalence of th
 
 The phrase “clean energy” is another term most prevalent by far in the United States, as confirmed on the regional graph. The North American States are seconded by Australia, but by a wide margin. The phrase appears almost nowhere else.
 
+#### "Renewable"
+![renewable](https://github.com/user-attachments/assets/3be13147-b0a3-4f6b-8823-f18e65c6982a)
+![renewable - graph - subregion](https://github.com/user-attachments/assets/78e39c1d-53ba-4bbd-bdac-23d21a4b74e8)
+![renewable - graph - income](https://github.com/user-attachments/assets/a95460c1-872b-46b4-9013-d1535ab46621)
+
+
+
 ### Visualizations: Prevention vs. Disaster Management
 
 We finally considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change, such as "disaster."
