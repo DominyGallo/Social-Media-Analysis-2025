@@ -17,11 +17,15 @@ Normalized Count of '[Word]' by Country
 
 ## Data Processing
 
-For the purposes of this project, we have used the Nationally Determined Contributions (NDCs) provided in the UNFCCC Secretariat's database as a point of analysis. From this, we have approximately 200 datapoints, ranging from various countries and regions from around the world.
+For the purposes of this project, we have used the Nationally Determined Contributions (NDCs) provided in the UNFCCC Secretariat's database as a point of analysis. From this, we have approximately 200 datapoints, ranging from various countries and regions from around the world. Website: [https://unfccc.int/NDCRE] 
 
-Website: [https://unfccc.int/NDCRE] 
+To obtain a base list of these documents along with their urls and essential metadata, we used the openclimatedata Github page ‘ndcs’: [https://github.com/openclimatedata/ndcs/blob/main/data/ndcs.csv]. This page provides an automatically updated record from the UNFCCC website in CSV form and includes country code, party (i.e. author country), title, type of document (NDC, addendum, translation, etc), language, URL, version and status (i.e. archived, active). 
 
-There were however some challenges in obtaining these files in a way where analysis could be made, through either word frequency, topic modelling, counting words or experimenting with regressions. Thus, to allow our readers to potentially replicate this, we have included here our code to access these resources:
+As not all countries have provided multiple rounds of NDCs, we selected the most recent active NDC for each country and removed all others from the dataset. Some countries provided annexes or addendums introducing their NDCs; in these cases, we removed these supplementary documents as well to maintain one datapoint per country. 
+
+To this refined CSV file, we added further indicators for each country. GDP data in USD was obtained from the World Bank: [https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?view=chart]. From UN statistics, we obtained region, sub-region and designation as Least Developed Countries (LDC), Small Island Developing States (SIDS), or neither. As LDC or SIDS designation was noted as a tick box in the UN data, we coded 1 for yes and 0 for no in our CSV. The same was done for OECD membership by cross referencing the members list from their website: [https://www.oecd.org/en.html]. Data was also taken from the UNDP Human Development Index: [https://hdr.undp.org/data-center/human-development-index#/indicies/HDI]. In Google Sheets, data from these various datasets were added in separate tabs alongside the ndcs Github download. Then, due to the common use of ISO 3-letter country codes by the UNFCCC, UN Stats, and World Bank across the datasets, it was possible to use VLOOKUP functions to add columns for these indicators in the master sheet. The HDI did not include these codes, therefore a VLOOKUP was done on the country name; any formula errors due to differences in country name spelling or abbreviation were corrected manually. 
+
+The next step was to gather  the documents in a way where analysis could be made, through either word frequency, topic modelling, counting words or experimenting with regressions. Thus, to allow our readers to potentially replicate this, we have included here our process and code to obtain readable txt files from the NDC URLs:
 
 ### Code:
 
@@ -71,9 +75,9 @@ There were however some challenges in obtaining these files in a way where analy
     shutil.copytree(source_folder, destination_folder)
     print(f"Folder copied to: {destination_folder}")
     
-Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. 
+In order to maintain the connection between the indicators CSV and the files in ndc_txts, we manually added a column for each txt file name in the format [Country].txt. This work was divided amongst the team members. 
 
-Furthermore, we then added indicators to our data points, on our CSV file, including indicators related to region name, GDP per capita, HDI Index, etc. The sources for these datapoints are derived from the World Bank, UNSTATS and HDI).
+Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. 
 
 *Here is a visual representation of our dataset*:
 ![Table with NDCs and Indicators](https://github.com/user-attachments/assets/f2476686-deb2-42f1-b3bc-b550e73ed4eb)
