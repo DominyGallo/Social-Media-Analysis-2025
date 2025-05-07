@@ -513,9 +513,9 @@ The first cluster of visualizations demonstrate word counts for terms associated
 
 The phrase “steady state” is only used in Barbados’s NDC, and “planetary boundaries” in Cabo Verde’s and Liberia’s. The word “degrowth” appears in no NDCs in the corpus. We can therefore conclude that post-growth and degrowth concepts, although circulating in certain spheres of academic discourse, have not been widely integrated into national emissions-reduction commitments.
 
-### Theme 2 Visualizations: Economic Growth and Development
+### Theme 2 Visualizations: Economics
 
-Having demonstrated the lack of terms from discourses critical of economic growth in an ecological context, we tested "economic growth" and "development," to test for persistent country interests in the relationship between emissions reduction and increasing GDP. These terms revealed themselves to be far more prevalent across the corpus.
+Having demonstrated the lack of terms from discourses critical of economic growth in an ecological context, we tested "economic growth" and "development," to test for persistent country interests in the relationship between emissions reduction and increasing GDP. These terms revealed themselves to be far more prevalent across the corpus. In this category, we also tested for common but "differentiated responsibilities," which accounts for the principle that higher-income states should contribute more financially to climate mitigation and adaptation efforts.
 
 #### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
@@ -534,6 +534,11 @@ As visible in the sub-region graph, “economic growth” appears most commonly 
 By contrast, the term is most prevalent in Asia, in particular Central Asia, then South-eastern and Southern Asia. Per the map, China’s normalized count is relatively high, alongside several Central Asian states: Turkmenistan, Uzbekistan, Afghanistan, Tajikistan, and Kyrgistan. Thailand, the Philippines, Indonesia, and especially Papua New Guinea, moving east into the Pacific, also have notably high counts. Russia and Brazil, though lower on the scale than China, appear to have similarly high frequencies for the term. In Latin America, the frequency is consistently moderate to high. Among African States, frequencies are inconsistent though generally moderate, with Mauritania, Tanzania, and Somalia standing out for their particularly high counts.
 
 The Income Level graph reveals, indeed, that high income states are the least likely to mention development in their NDCs, a phenomenon reflected in the relative scarcity of the term in North America, Europe, and Australia. From low to upper-middle income, however, income level seems not to be strongly correlated to prevalence and regional trends appear to dominate, with development discourse most prevalent in Asia and the Pacific, then in Latin America and Africa, and least of all in the “Global North.”
+
+#### "Differentiated Responsibilities"
+![responsibilities](https://github.com/user-attachments/assets/42361e67-ad20-48fa-ad37-d0fe86be1938)
+![responsibilities - subregion](https://github.com/user-attachments/assets/9d0eadb2-951e-40fe-9b02-2ebd878dba8f)
+![responsibilities - income](https://github.com/user-attachments/assets/cee0953d-040a-43bb-a6ca-0dbcd617e289)
 
 
 ### Visualizations: Innovation, the Private Sector, and the State
@@ -580,7 +585,6 @@ We then tested a set of words associated with **energy** policy, including "foss
 
 The phrase “fossil fuels” is most prevalent in China, Afghanistan, and Brazil. It appears almost not at all in Sub-Saharan Africa, all of the Pacific states between India and Australia, Russia, Mexico, and Western Latin American states. It has some prevalence, by contrast, in the United States and Europe. On the Income Level graph, we observe indeed that high income countries are most likely to discuss fossil fuels in their NDCs, and low and lower-middle income states are significantly  less likely to do so. 
 
-
 #### "Energy Transition"
 ![Energy Transition](https://github.com/user-attachments/assets/37d9e460-55aa-45db-a450-ca2d28f9f1b3)
 ![Energy Transition - Income Level Graph](https://github.com/user-attachments/assets/2a55b3af-4328-43a6-a859-dfec6528a8dd)
@@ -601,7 +605,7 @@ The phrase “clean energy” is another term most prevalent by far in the Unite
 
 “Renewable” occurs more frequently than “clean” as a denotation for “energy” across the board. It is least prevalent in Europe, Northern America, Eastern Asia, and Australia and New Zealand, and most prevalent in Polynesia, Micronesia, Melanesia, North Africa, and Western Asia, with a notably high prevalence in Saudi Arabia.  No correlation can be identified based on income.
 
-### Visualizations: Prevention vs. Disaster Management
+### Visualizations: Mitigation v. Adaptation
 
 We finally considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change, such as "disaster."
 
@@ -619,6 +623,8 @@ A cursory look at the graph reveals that “mitigation,” or prevention of clim
 
 “Adaptation” reveals a slightly different picture. It is similarly least prevalent in Europe, North America, and New Zealand, but Russia and China break from the “mitigation” trend and do make reference to “adaptation.” It is most prevalent in Melanesia, then Central Asia, followed by Northern Africa, Latin America and the Caribbean, South-eastern Asia, and finally Sub-Saharan Africa. Within Latin America, interestingly, Brazil includes rather few references while Argentina, Uruguay, Colombia, Ecuador, and Peru include more frequent notes.
 
+### Visualizations: Land-Related Discourses
+
 #### "Disaster"
 ![Disaster](https://github.com/user-attachments/assets/d180ad76-39a0-4e8c-8746-033d364f6be6)
 ![Disaster - Sub Region Graph](https://github.com/user-attachments/assets/3134cda9-c48e-4739-9ab3-b9b04ffc0483)
@@ -633,6 +639,9 @@ Moreover, high income states seem to have the lowest prevalence by far of the te
 
 ![Disaster - Income Level Graph](https://github.com/user-attachments/assets/3d5550f5-6a71-4937-9021-f11e11b1ca80)
 
+#### "Agriculture"
+
+#### "Water"
 
 ### Regression Analysis
 
