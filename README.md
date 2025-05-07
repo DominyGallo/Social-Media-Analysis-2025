@@ -221,7 +221,7 @@ For topic modeling, we aimed to see what were the general topics that were forme
     import pandas as pd
     import matplotlib.pyplot as plt
     from sklearn.preprocessing import MultiLabelBinarizer
-    
+       
 You know the drill, mount your drive!
     
     from google.colab import drive
@@ -236,31 +236,7 @@ Download BERTopic
     from umap import UMAP
     from hdbscan import HDBSCAN
     from sklearn.feature_extraction.text import CountVectorizer
-    import os
-
-Create a path to your CSV and folder with txt files. Be sure to adapt the code path to yours!
-
-    csv_path = "/content/drive/Shareddrives/NDC_txts/ndcs - sorted with indicators - All indicators (1) (1).csv"
-    txt_folder = "/content/drive/Shareddrives/NDC_txts"
     
-    # Load your CSV
-    df = pd.read_csv(csv_path)
-    
-    # Function to read text from file
-    def read_text(filename):
-        file_path = os.path.join(txt_folder, filename)
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                return f.read()
-        except FileNotFoundError:
-            return None  # or return "" if you prefer an empty string
-    
-    # Apply the function to the 'filename' column
-    df["text_content"] = df["filename"].apply(read_text)
-
-    df["text_content"]
-
-Attempt
 
     import os
     from sentence_transformers import SentenceTransformer
@@ -275,7 +251,7 @@ Attempt
         if filename.endswith(".txt"):
             with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
                 documents.append(f.read())  # Append the content of each file to the list
-    
+
     # Now 'documents' contains all the text from the .txt files
     # Proceed to generate the document_vectors using your model
     
@@ -297,6 +273,15 @@ Attempt
         vectorizer_model=vectorizer,
         verbose=True
     ).fit(documents, document_vectors)
+
+Get the topic info
+
+    topic_info = topic_model.get_topic_info()
+    topic_info
+
+Visualise as a barchart the topic modeling:
+
+    topic_model.visualize_barchart(top_n_topics=22,n_words=10)
 
 ### Output
 ![Topic Modeling with BERTopic](https://github.com/user-attachments/assets/6b7b9d34-41c3-4bcf-a1c5-6c66d94d9839)
