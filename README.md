@@ -27,8 +27,7 @@ There were however some challenges in obtaining these files in a way where analy
     import os
     print(os.listdir())
 
-    #Download each file pdf individually, then upload them to google drive in a file that is 
-    accessible. Then mount your drive.
+    #Download each file pdf individually, then upload them to google drive in a file that is accessible. Then mount your drive.
     from google.colab import drive
     drive.mount('/content/drive')
     
@@ -55,7 +54,7 @@ There were however some challenges in obtaining these files in a way where analy
             except Exception as e:
                 print(f"❌ Error converting {pdf_file}: {e}")
 
-    #Then, create a source path to input all of these txts into an accessible folder, so you         may refer back to it later through the process.
+    #Then, create a source path to input all of these txts into an accessible folder, so you   may refer back to it later through the process.
 
     import shutil
     import os
@@ -64,13 +63,18 @@ There were however some challenges in obtaining these files in a way where analy
     source_folder = "ndc_txts"
     
     # Destination path (on your Google Drive)
-    destination_folder = "/content/drive/MyDrive/Name_of_Folder"  # Change                          'MyDrive/ndc_texts' to a different path each time!
+    destination_folder = "/content/drive/MyDrive/Name_of_Folder"  # Change                  'MyDrive/ndc_texts' to a different path each time!
     
     # Copy the folder and its contents
     shutil.copytree(source_folder, destination_folder)
     print(f"Folder copied to: {destination_folder}")
     
 Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. 
+
+Furthermore, we then added indicators to our data points, on our CSV file, including indicators related to region name, GDP per capita, HDI Index, etc. The sources for these datapoints are derived from the World Bank, UNSTATS and HDI).
+
+Here is a visual representation of our dataset:
+![Table with NDCs and Indicators](https://github.com/user-attachments/assets/f2476686-deb2-42f1-b3bc-b550e73ed4eb)
 
 ## Word Frequency
 
