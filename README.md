@@ -572,24 +572,27 @@ This map indicates that regulation is prevalent almost exclusively in European N
 
 ### Visualizations: Energy
 
-We tested a set of words associated with **energy** sources, including "fossil fuels," "energy transition," and "clean energy."
+We then tested a set of words associated with **energy** policy, including "fossil fuels," "energy transition," and "clean energy."
 
 ##### "Fossil Fuels"
 ![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
-
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
+
+The phrase “fossil fuels” is most prevalent in China, Afghanistan, and Brazil. It appears almost not at all in Sub-Saharan Africa, all of the Pacific states between India and Australia, Russia, Mexico, and Western Latin American states. It has some prevalence, by contrast, in the United States and Europe. On the Income Level graph, we observe indeed that high income countries are most likely to discuss fossil fuels in their NDCs, and low and lower-middle income states are significantly  less likely to do so. 
+
 
 #### "Energy Transition"
 ![Energy Transition](https://github.com/user-attachments/assets/37d9e460-55aa-45db-a450-ca2d28f9f1b3)
-
 ![Energy Transition - Income Level Graph](https://github.com/user-attachments/assets/2a55b3af-4328-43a6-a859-dfec6528a8dd)
 ![Energy Transition - Sub-Region Graph](https://github.com/user-attachments/assets/849745ba-4c6e-4bd5-8ebb-e04ca6e422ea)
 
+Brazil, the United Kingdom, and Cuba appear to have the highest prevalence of the phrase “energy transition” by far; by contrast, the phrase appears almost nowhere in Europe, Asia, the Middle East, Sub-Saharan Africa, or the rest of Latin America. It appears with some frequency in North America and Australia. The Income Level graph reveals that high and upper-middle income countries use this phrase on average more frequently than low and lower-middle income countries. When we examine by region, the average is surprising—Northern America has far and away the highest averaged normalized count, despite the fact that none of its states have as high frequency levels as Brazil and the UK, because rates are moderately high across the region rather than split between singular highs and many lows, as is the case in Latin America (Brazil’s region) and Europe (the UK’s).
+
 #### "Clean Energy"
 ![Clean Energy](https://github.com/user-attachments/assets/7701a25b-9de5-40c1-b563-9b7b54c8c049)
-
 ![Clean Energy - Sub-Region Graph](https://github.com/user-attachments/assets/65a0649c-2f42-46d5-982e-063b4dd09a61)
-![Clean Energy - Income Level Graph](https://github.com/user-attachments/assets/bf8b916f-139c-4035-ac4e-193d18320c73)
+
+The phrase “clean energy” is another term most prevalent by far in the United States, as confirmed on the regional graph. The North American States are seconded by Australia, but by a wide margin. The phrase appears almost nowhere else.
 
 ### Visualizations: Prevention vs. Disaster Management
 
