@@ -297,7 +297,11 @@ Attempt
         vectorizer_model=vectorizer,
         verbose=True
     ).fit(documents, document_vectors)
-    
+
+### Output
+![Topic Modeling with BERTopic](https://github.com/user-attachments/assets/6b7b9d34-41c3-4bcf-a1c5-6c66d94d9839)
+
+
 
 ### Analysis
 
