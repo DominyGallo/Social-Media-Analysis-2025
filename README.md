@@ -536,33 +536,40 @@ By contrast, the term is most prevalent in Asia, in particular Central Asia, the
 The Income Level graph reveals, indeed, that high income states are the least likely to mention development in their NDCs, a phenomenon reflected in the relative scarcity of the term in North America, Europe, and Australia. From low to upper-middle income, however, income level seems not to be strongly correlated to prevalence and regional trends appear to dominate, with development discourse most prevalent in Asia and the Pacific, then in Latin America and Africa, and least of all in the “Global North.”
 
 
-### Visualizations: The Private Sector
+### Visualizations: Innovation, the Private Sector, and the State
 
-Relatedly, the next group of words have to do with the prevalence of "innovation," "technology," and the "private" sector in the NDCs.
+The next group of words considers the NDCs’ ideological affiliation with “innovation” and “technology” as tools to address the climate crisis. We have paired this set of discourses with the role of the “private” sector and, by contrast, the state's role in "regulation."
 
 #### "Innovation"
 ![innovation - map](https://github.com/user-attachments/assets/6ead6998-8c93-4b8a-a5b7-39a34a4e4703)
 ![innovation - graph - subregion](https://github.com/user-attachments/assets/77b9f22e-6a6e-4f70-9b7c-40d4f94517a9)
 ![innovation - graph - income](https://github.com/user-attachments/assets/4906f51d-48fe-4109-9a88-3e47676c0794)
 
+We can observe that “innovation” is far and away most prevalent in Northern American NDCs, especially in the United States and Mexico. It is notably prevalent in Saudi Arabia’s NDC’s, China’s, Canada’s, and Brazil’s, but these outliers do not contribute to consistent regional significance anywhere but in Northern America, per the sub-region graph. Western Europe has the second-highest prevalence of the term, though it is significantly behind North America in this regard. The Income Level graph demonstrates a strong correlation between high income and high prevalence of “innovation” in NDCs—the lower the income, the less frequent is the term. 
+
 #### "Technology"
 ![technology - map](https://github.com/user-attachments/assets/a3c21c8a-bcd8-40cb-9561-dbbf0f683f37)
 ![technology - graph - subregion](https://github.com/user-attachments/assets/99f1fc72-b63d-4ac5-8d1d-c40be9473a14)
+
+“Technology” shows a slightly different picture. It is most prevalent in Southern and South-Eastern Asia, with notable frequency in India and some prevalence in Saudi Arabia, Iraq, Afghanistan, Indonesia, and Thailand. It is also relatively frequent in China. It appears almost not at all anywhere in Europe. 
+
+It is not clear, from a simple word-counting process, to determine the context in which “technology” is used. It could indicate the belief in technology as a solution to the climate crisis. The lack of overlap between the technology and innovation graphs, could, however, indicate that “technology” acquires different meanings. It could be used in the context of actual technology transfers, or low-technology states requesting technological assistance from higher-tech states, in contrast to the principle of technological innovation.
 
 #### "Private"
 ![private - map](https://github.com/user-attachments/assets/73fc9aa8-b167-4e41-9025-7835e4c6d451)
 ![private - graph - subregion](https://github.com/user-attachments/assets/76ec638e-7d84-40ba-8493-07a4831c6f96)
 ![private - graph - income level](https://github.com/user-attachments/assets/4fb6d827-4338-4201-9ff0-6296931e6d64)
 
-### Visualizations: Limits
+The “private” graph presents the striking prevalence of private-sector solutions coming out of the United States, which is individually  responsible for the high prevalence of the term in North American NDC’s. It appears, by contrast, almost nowhere in Europe or the major Asian states, Russia, China, and India. It scarcely appears, likewise, in Australia or Canada. It has some prevalence in Central Asian and Middle Eastern states, some sub-Saharan African states, some South-Asian and Pacific states, and Brazil, but nowhere is its prevalence comparable to that of the United States.
 
-We considered the idea of limitations, such as the principle of the "sustainable" and the role of "regulation."
+Interestingly, in spite of the over-representation of the term in the high-GDP state of the US, the relative lack of prevalence in other high-GDP states (such as European states and China) reveal no correlation between income and prevalence of “private” sector ideas. Reliance on the private sector appears, that is, more a matter of cultural than purely economic traits.
 
 #### "Regulation
 ![regulation - map](https://github.com/user-attachments/assets/237bb907-3db6-4731-be64-adb786ef7b1e)
 ![regulation - graph - subregion](https://github.com/user-attachments/assets/29ad570a-7ba7-4553-942a-a399ba21af95)
 
-#### "Sustainable"
+
+#### "Sustainable" WHERE TO PUT THIS
 ![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
 
 ![Sustainable - Income Level Graph](https://github.com/user-attachments/assets/84e5d6a3-81d4-4a92-8bee-5d9d106d8685)
