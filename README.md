@@ -88,7 +88,7 @@ As a next step in our process, we felt it was necessary to determine what were o
 
 In this next section, we will write out the code we used to find the top 25 words across all NDCs:
 
-### Code:
+### Code to calculate the top 25 words across all NDCs:
 
 Before starting, be sure to mount your drive if all of your txt files are on your drive!
 
@@ -163,7 +163,7 @@ These words will inspire us when it comes to choosing the key words we will purs
 
 For reference, the following is the code used in order to determine the top 10 words used for each NDC.
 
-### Code:
+### Code to ccalculate the top 10 words for each NDC:
     import os
     import string
     from collections import Counter
@@ -503,7 +503,7 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
         
 ### Theme 1 Visualizations: Post-Growth
 
-The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse** [EXPLAIN?], such as "steady state” and "degrowth," and the recognition of ecological limits, “planetary boundaries.”
+The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse**, such as "steady state” and "degrowth," and the recognition of ecological limits, “planetary boundaries.”
 
 #### "Steady State"
 ![Planetary Boundaries](https://github.com/user-attachments/assets/1839cf67-0b04-4e6d-915a-b1dfde501e42)
@@ -511,21 +511,30 @@ The first cluster of visualizations demonstrate word counts for terms associated
 #### "Planetary Boundaries"
 ![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
 
-The phrase “steady state” is only used in Barbados’s NDC, and “planetary boundaries” in Cabo Verde’s and Liberia’s. The word “degrowth” appears in no NDCs in the corpus. [DISCUSS]
+The phrase “steady state” is only used in Barbados’s NDC, and “planetary boundaries” in Cabo Verde’s and Liberia’s. The word “degrowth” appears in no NDCs in the corpus. We can therefore conclude that post-growth and degrowth concepts, although circulating in certain spheres of academic discourse, have not been widely integrated into national emissions-reduction commitments.
 
 ### Theme 2 Visualizations: Economic Growth and Development
 
-Having demonstrated the lack of terms from discourses critical of economic growth in an ecological context, we tested  "economic growth" and "development," which revealed themselves to be far more prevalent across the corpus.
+Having demonstrated the lack of terms from discourses critical of economic growth in an ecological context, we tested "economic growth" and "development," to test for persistent country interests in the relationship between emissions reduction and increasing GDP. These terms revealed themselves to be far more prevalent across the corpus.
 
 #### "Economic Growth"
 ![Economic Growth](https://github.com/user-attachments/assets/fd04b97d-634e-4eb9-b92e-abb4f1c824b6)
-
 ![Economic Growth - Sub-Region Graph](https://github.com/user-attachments/assets/c8846136-da99-425d-9ace-a005a9f50927)
+
+As visible in the sub-region graph, “economic growth” appears most commonly in North American NDCs; from the map, we can observe that this is primarily accounted for by the United States. The phrase is least prevalent in Northern Europe. It is interesting that the three clusterings of Pacific island states have such different counts for the phrase: Polynesia has the second-lowest count and Micronesia the second-highest of all NDCs, with Melanesia in the middle.  On the map, we observe that Brazil, Saudi Arabia, some sub-saharan African states, and Australia include some degree of “economic growth” discourse, but there are not clearly discernible broad regional patterns.
+
 
 #### "Development"
 ![development - map2](https://github.com/user-attachments/assets/06b14a73-eb84-4dec-9de7-25834faf0889)
 ![Development - Graph - subregion](https://github.com/user-attachments/assets/56415471-bc27-4f4e-8123-184b9f58ed3d)
 ![Development - Graph - income](https://github.com/user-attachments/assets/104476c6-b3c3-443c-b856-6f0ab4dba236)
+
+“Development” yields a much clearer picture. It is least prevalent in Northern and Western Europe and Australia and New Zealand, then Northern America and Eastern Europe. We should note the significant difference between the United States and Canada’s NDCs and Mexico’s, which has a much higher prevalence for the word, as indicated on the map. We can thus observe that those regions commonly referred to as the “Global North”—Europe, the U.S. and Canada, and Australia and New Zealand—are least concerned with “development” in their emissions-reduction commitments.
+
+By contrast, the term is most prevalent in Asia, in particular Central Asia, then South-eastern and Southern Asia. Per the map, China’s normalized count is relatively high, alongside several Central Asian states: Turkmenistan, Uzbekistan, Afghanistan, Tajikistan, and Kyrgistan. Thailand, the Philippines, Indonesia, and especially Papua New Guinea, moving east into the Pacific, also have notably high counts. Russia and Brazil, though lower on the scale than China, appear to have similarly high frequencies for the term. In Latin America, the frequency is consistently moderate to high. Among African States, frequencies are inconsistent though generally moderate, with Mauritania, Tanzania, and Somalia standing out for their particularly high counts.
+
+The Income Level graph reveals, indeed, that high income states are the least likely to mention development in their NDCs, a phenomenon reflected in the relative scarcity of the term in North America, Europe, and Australia. From low to upper-middle income, however, income level seems not to be strongly correlated to prevalence and regional trends appear to dominate, with development discourse most prevalent in Asia and the Pacific, then in Latin America and Africa, and least of all in the “Global North.”
+
 
 ### Visualizations: The Private Sector
 
