@@ -54,7 +54,7 @@ There were however some challenges in obtaining these files in a way where analy
             except Exception as e:
                 print(f"❌ Error converting {pdf_file}: {e}")
 
-    #Then, create a source path to input all of these txts into an accessible folder, so you   may refer back to it later through the process.
+    #Then, create a source path to input all of these txts into an accessible folder, so you may refer back to it later through the process.
 
     import shutil
     import os
@@ -63,7 +63,7 @@ There were however some challenges in obtaining these files in a way where analy
     source_folder = "ndc_txts"
     
     # Destination path (on your Google Drive)
-    destination_folder = "/content/drive/MyDrive/Name_of_Folder"  # Change                  'MyDrive/ndc_texts' to a different path each time!
+    destination_folder = "/content/drive/MyDrive/Name_of_Folder"  # Change 'MyDrive/ndc_texts' to a different path each time!
     
     # Copy the folder and its contents
     shutil.copytree(source_folder, destination_folder)
