@@ -574,7 +574,7 @@ This map indicates that regulation is prevalent almost exclusively in European N
 
 We then tested a set of words associated with **energy** policy, including "fossil fuels," "energy transition," and "clean energy."
 
-##### "Fossil Fuels"
+#### "Fossil Fuels"
 ![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
 
