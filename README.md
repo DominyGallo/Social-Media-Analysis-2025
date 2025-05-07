@@ -191,6 +191,13 @@ For reference, the following is the code used in order to determine the top 10 w
         for word, count in top_words:
             print(f"   {word}: {count}")
 
+*If you have the chance, we recommend taking a glance at the results that appear!* For instance, just so you may have a glance, here are some examples of the top words of the NDCs of Cambodia, Canada, Indonesia and Turkmenistan.
+
+![Cambodia](https://github.com/user-attachments/assets/97fd765c-c905-4390-90e1-4ac850ea668f)
+![Canada](https://github.com/user-attachments/assets/4ba75e2a-543c-4df1-a5e8-76256b4556b5)
+![Indonesia](https://github.com/user-attachments/assets/8ac76ed4-89d6-4177-83cb-f47c00355b62)
+![Turkmenistan](https://github.com/user-attachments/assets/8c112bc2-bb67-47dc-b693-84842a43da53)
+
 ## Topic Modeling
 
 ## Counting Words
