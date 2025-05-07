@@ -191,7 +191,7 @@ For reference, the following is the code used in order to determine the top 10 w
         for word, count in top_words:
             print(f"   {word}: {count}")
 
-*If you have the chance, we recommend taking a glance at the results that appear!* For instance, just so you may have a glance, here are some examples of the top words of the NDCs of Cambodia, Canada, Indonesia and Turkmenistan.
+*If you have the chance, we recommend taking a glance at the results that appear!* For instance, just so you may have an idea, here are some examples of the top words of the NDCs of Cambodia, Canada, Indonesia and Turkmenistan.
 
 ![Cambodia](https://github.com/user-attachments/assets/7593d7ac-0390-47e0-a24e-6d7d5bab0c6d)
 ![Canada](https://github.com/user-attachments/assets/4ba75e2a-543c-4df1-a5e8-76256b4556b5)
@@ -206,10 +206,26 @@ For reference, the following is the code used in order to determine the top 10 w
 
 ## Topic Modeling
 
-For topic modeling, we aimed to see what were the general topics that were formed across NDCs. As the language employed by NDCs can be quite similar, the parameters for the BERTopic used had to be modified and played with in order to get pertinent results.
+For topic modeling, we aimed to see what were the general topics that were formed across NDCs, by using BERTopic modeling. As the language employed by NDCs can be quite similar, the parameters for the BERTopic used had to be modified and played with in order to get pertinent results.
 
+### Code:
+    ## load libraries
+    import spacy
+    from tqdm import tqdm
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    from sklearn.preprocessing import MultiLabelBinarizer
+    
+   #You know the drill, mount your drive!
+    from google.colab import drive
+    drive.mount('/content/drive', force_remount=True)
 
+    #download BERTopic
+    !pip install bertopic
 
+    
+
+### Analysis
 
 #### Limitations
 As a next step, to ensure the reliability of results, it would be necessary to include code that would divide the txt files by paragraph. This would guarantee more accurate results than the ones we have obtained above. For the purposes of this project, the reliability of our topics is not concerning, as this modeling was used to inspire our selection of key words, alongside our top words across NDCs, rather than shaping our entire analysis. If you ever do manage to complete this step, we would be eager to see your results!
