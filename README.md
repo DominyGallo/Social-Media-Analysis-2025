@@ -283,7 +283,7 @@ Visualise as a barchart the topic modeling:
 
     topic_model.visualize_barchart(top_n_topics=22,n_words=10)
 
-### Topic Modelling Output
+### Topic Modeling Output
 ![Topic Modeling with BERTopic](https://github.com/user-attachments/assets/6b7b9d34-41c3-4bcf-a1c5-6c66d94d9839)
 
 
