@@ -220,6 +220,7 @@ For topic modeling, we aimed to see what were the general topics that were forme
 
 ### Code:
     # load libraries
+    import os
     import spacy
     from tqdm import tqdm
     import pandas as pd
@@ -240,15 +241,7 @@ Download BERTopic
     from umap import UMAP
     from hdbscan import HDBSCAN
     from sklearn.feature_extraction.text import CountVectorizer
-    
-
-    import os
-    from sentence_transformers import SentenceTransformer
-    from bertopic import BERTopic
-    from umap import UMAP
-    from hdbscan import HDBSCAN
-    from sklearn.feature_extraction.text import CountVectorizer
-    
+        
     text_folder = "/content/drive/Shareddrives/NDC_txts"
     documents = []  # Initialize an empty list to store your documents
     for filename in os.listdir(text_folder):
@@ -256,8 +249,7 @@ Download BERTopic
             with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
                 documents.append(f.read())  # Append the content of each file to the list
 
-    # Now 'documents' contains all the text from the .txt files
-    # Proceed to generate the document_vectors using your model
+Now 'documents' contains all the text from the .txt files. You can then proceed to generate the document_vectors using your model
     
     # Ensure embeddings are generated from the 'documents' list
     model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -278,7 +270,7 @@ Download BERTopic
         verbose=True
     ).fit(documents, document_vectors)
 
-Get the topic info
+In this next step, you can obtain the topic information (and check that the process actually worked!).
 
     topic_info = topic_model.get_topic_info()
     topic_info
@@ -289,7 +281,6 @@ Visualise as a barchart the topic modeling:
 
 ### Output
 ![Topic Modeling with BERTopic](https://github.com/user-attachments/assets/6b7b9d34-41c3-4bcf-a1c5-6c66d94d9839)
-
 
 
 ### Analysis
