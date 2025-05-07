@@ -17,6 +17,61 @@ Normalized Count of '[Word]' by Country
 
 ## Data Processing
 
+For the purposes of this project, we have used the Nationally Determined Contributions (NDCs) provided in the UNFCCC Secretariat's database as a point of analysis. From this, we have approximately 200 datapoints, ranging from various countries and regions from around the world.
+
+Website: [https://unfccc.int/NDCRE] 
+
+There were however some challenges in obtaining these files in a way where analysis could be made, through either word frequency, topic modelling, counting words or experimenting with regressions. Thus, to allow our readers to potentially replicate this, we have included here our code to access these resources:
+
+    #Download the following
+    import os
+    print(os.listdir())
+
+    #Download each file pdf individually, then upload them to google drive in a file that is 
+    accessible. Then mount your drive.
+    from google.colab import drive
+    drive.mount('/content/drive')
+    
+    #Next step, is converting the files to txt, through the following code:
+    !pip install pymupdf
+    import fitz  # PyMuPDF
+    
+    os.makedirs("ndc_txts", exist_ok=True)
+    
+    for pdf_file in os.listdir("ndc_pdfs"):
+        if pdf_file.endswith(".pdf"):
+            pdf_path = os.path.join("ndc_pdfs", pdf_file)
+            txt_path = os.path.join("ndc_txts", pdf_file.replace(".pdf", ".txt"))
+    
+            try:
+                doc = fitz.open(pdf_path)
+                text = "".join([page.get_text() for page in doc])
+                doc.close()
+    
+                with open(txt_path, "w", encoding="utf-8") as f:
+                    f.write(text)
+    
+                print(f"✅ Converted: {pdf_file}")
+            except Exception as e:
+                print(f"❌ Error converting {pdf_file}: {e}")
+
+    #Then, create a source path to input all of these txts into an accessible folder, so you         may refer back to it later through the process.
+
+    import shutil
+    import os
+    
+    # Source path (your Colab folder)
+    source_folder = "ndc_txts"
+    
+    # Destination path (on your Google Drive)
+    destination_folder = "/content/drive/MyDrive/Name_of_Folder"  # Change                          'MyDrive/ndc_texts' to a different path each time!
+    
+    # Copy the folder and its contents
+    shutil.copytree(source_folder, destination_folder)
+    print(f"Folder copied to: {destination_folder}")
+    
+Note: for all NDC files not in English (i.e. Spanish or Arabic documents), were translated as txts into English using DeepL. This may not be the most accurate of mechanisms for translation, but given the limited timeframe given to us to complete this project, and the magnitude of datapoints available, it was felt that it would be the most precise tool given our project. 
+
 ## Word Frequency
 
 ## Topic Modeling
