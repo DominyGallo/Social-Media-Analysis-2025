@@ -501,7 +501,7 @@ For very low-frequency phrases, we also created a find_countries_with_phrase fun
         # Display the list of countries
         print("Countries with 'planetary boundaries' in their NDCs:", countries)
         
-### Theme 1 Visualizations: Post-Growth
+### Theme 1 Visualizations: Post-Growth Discourses
 
 The first cluster of visualizations demonstrate word counts for terms associated with **post-growth discourse**, such as "steady state” and "degrowth," and the recognition of ecological limits, “planetary boundaries.”
 
@@ -543,7 +543,7 @@ The Income Level graph reveals, indeed, that high income states are the least li
 Notably, states likely to incur the most obligations based on the principle of “common but differentiated responsibilities” make the least reference to the phrase—it appears nowhere in any Western or Eastern European, Northern American, or Australian NDC. It appears most frequently in Western Asia and Latin America and the Caribbean, with particularly high rates in Brazil. The highest and the lowest income states, interestingly, are the least likely to mention it in comparison with middle-income states.
 
 
-### Visualizations: Innovation, the Private Sector, and the State
+### Theme 3 Visualizations: Innovation, the Private Sector, and the State
 
 The next group of words considers the NDCs’ ideological affiliation with “innovation” and “technology” as tools to address the climate crisis. We have paired this set of discourses with the role of the “private” sector and, by contrast, the state's role in "regulation."
 
@@ -577,7 +577,7 @@ Interestingly, in spite of the over-representation of the term in the high-GDP s
 
 This map indicates that regulation is prevalent almost exclusively in European NDCs. It appears almost nowhere else.
 
-### Visualizations: Energy
+### Theme 4 Visualizations: Energy
 
 We then tested a set of words associated with **energy** policy, including "fossil fuels," "energy transition," and "clean energy."
 
@@ -607,7 +607,7 @@ The phrase “clean energy” is another term most prevalent by far in the Unite
 
 “Renewable” occurs more frequently than “clean” as a denotation for “energy” across the board. It is least prevalent in Europe, Northern America, Eastern Asia, and Australia and New Zealand, and most prevalent in Polynesia, Micronesia, Melanesia, North Africa, and Western Asia, with a notably high prevalence in Saudi Arabia.  No correlation can be identified based on income.
 
-### Visualizations: Mitigation v. Adaptation
+### Theme 5 Visualizations: Mitigation v. Adaptation
 
 We next considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change.
 
@@ -625,7 +625,7 @@ A cursory look at the graph reveals that “mitigation,” or prevention of clim
 
 “Adaptation” reveals a slightly different picture. It is similarly least prevalent in Europe, North America, and New Zealand, but Russia and China break from the “mitigation” trend and do make reference to “adaptation.” It is most prevalent in Melanesia, then Central Asia, followed by Northern Africa, Latin America and the Caribbean, South-eastern Asia, and finally Sub-Saharan Africa. Within Latin America, interestingly, Brazil includes rather few references while Argentina, Uruguay, Colombia, Ecuador, and Peru include more frequent notes.
 
-### Visualizations: Land-Related Discourses
+### Theme 6 Visualizations: Land-Related Discourses
 
 Finally, we look into terms that have more geographically specific relevance, such as "disaster," "agriculture," and "water."
 
