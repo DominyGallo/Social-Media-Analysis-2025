@@ -98,6 +98,8 @@ Before starting, be sure to mount your drive if all of your txt files are on you
 Be sure to import the following (allows us to remove stopwords and access the words used across the NDCs)
 
     import os
+    import nltk
+    nltk.download("stopwords")
     from collections import Counter
     from nltk.corpus import stopwords
     import string
