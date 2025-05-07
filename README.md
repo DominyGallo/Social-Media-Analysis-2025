@@ -568,6 +568,7 @@ Interestingly, in spite of the over-representation of the term in the high-GDP s
 ![regulation - map](https://github.com/user-attachments/assets/237bb907-3db6-4731-be64-adb786ef7b1e)
 ![regulation - graph - subregion](https://github.com/user-attachments/assets/29ad570a-7ba7-4553-942a-a399ba21af95)
 
+This map indicates that regulation is prevalent almost exclusively in European NDCs. It appears almost nowhere else.
 
 #### "Sustainable" WHERE TO PUT THIS
 ![Sustainable](https://github.com/user-attachments/assets/c1c409b0-e003-4f87-b527-f6989784428b)
