@@ -291,16 +291,16 @@ Visualise as a barchart the topic modeling:
 
 
 ### Analysis
-According to the parameters set through our BERTopic modelling, we obtained approximately 22 topics. As can be seen from a quick glance, the topics are quite various. Although many include the name of countries (and Topic 10 is not pertinent to our analysis), some insight can be obtained from these topics. For instance, topic 1 and topic 2 are quite similar when it comes to the words employed, and yet, there are still some differences. For instance, while both focus on "climate", the first topic includes key words related to "sector", "emissions" and "energy". When it comes to topic 2, there is instead reference to more nouns of action, such as "management", "adaptation", "contribution" or "mitigation".
+According to the parameters set through our BERTopic modelling, we obtained approximately 21 topics. As can be seen from a quick glance, the topics are quite varied. Although many include the name of countries, some insight can be obtained from these topics. For instance, Topic 0 includes words such as “climate”, “national”, “development”, “adaptation” and the year 2030. The next section will share some key observations with these topic word scores:
 
 *A few key observations*:
-- **Topic 3**: Focusing on Oman, Egypt, Qatar and Kuwait, it is interesting that this is the few topics where the word "economic" is present, and in tandem with words such as "national", "sector", "water" and "energy".
-- **Topic 12**: With reference to Korea, Georgia and Montenegro, the key topic words that appear include "carbon", "target", "emissions", "ghg", and most surprisingly "neutrality".
-- **Topic 13**: It is quite staggering that the topic modelling was able to group together small island developing states together, such as Republic of Marshall Islands (RMI), the Solomon Islands and St Kitts and Nevis, with the words "change" and "adaptation" predominantely between them.
-- **Topic 20**: in relation to our previous analysis of Cambodia individually, we see it present in Topic 20, alongisde Chile. Among all the topics, this is one the few that references to "women" and "gender". This thus sheds light as to what the priorities of these two countries is, relative to the other NDCs.
+- **Topic 3**: Focusing on Oman, Egypt, Qatar and Kuwait, it is interesting that this topic is one of the few where the word "economic" is present, alongside words such as "national", "sector", "water" and "energy".
+- **Topic 10**: this topic is interesting because it reflects the same remarks as we did previously, with counting words when it came to Canada’s NDC. For instance, there are words related to “indigenous”, “emissions”, “federal” and “clean”. 
+- **Topic 15**: With reference to Korea, Georgia and Montenegro, the key topic words that appear include "carbon", "target", "ghg", and most surprisingly "neutrality".
+- **Topic 16**: It is quite staggering that the topic modelling was able to group together small island developing states together, such as “Grenada”, “Jamaica”, “Tobago” and “Trinidad” are all within the same topic.
 
 #### Limitations
-As a next step, to ensure the reliability of results, it would be necessary to include code that would divide the txt files by paragraph. This would guarantee more accurate results than the ones we have obtained above. For the purposes of this project, the reliability of our topics is not concerning, as this modeling was used to inspire our selection of key words, alongside our top words across NDCs, rather than shaping our entire analysis. If you ever do manage to complete this step, we would be eager to see your results!
+As a next step, to ensure the reliability of results, it would be necessary to include code that would divide the txt files by paragraph. This would guarantee more accurate results than the ones we have obtained above. For the purposes of this project, the reliability of our topics is not concerning, as this modeling was used to inspire our selection of keywords, alongside our top words across NDCs, rather than shaping our entire analysis. If you ever do manage to complete this step, we would be eager to see your results!
 
 
 ## Counting Words
