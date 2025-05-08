@@ -607,9 +607,9 @@ It is not clear, from a simple word-counting process, to determine the context i
 ![private - graph - income](https://github.com/user-attachments/assets/0749ea8f-f52b-4325-a152-c1b7e13757e1)
 
 
-The “private” graph presents the striking prevalence of private-sector solutions coming out of the United States, which is individually responsible for the high prevalence of the term in North American NDC’s. It appears, by contrast, almost nowhere in Europe or the major Asian states, Russia, China, and India. It scarcely appears, likewise, in Australia or Canada. It has some prevalence in Central Asian and Middle Eastern states, some sub-Saharan African states, some South-Asian and Pacific states, and Brazil, but nowhere is its prevalence comparable to that of the United States.
+The “private” graph presents the striking prevalence of private-sector solutions coming out of the United States, which is individually responsible for the high prevalence of the term in North American NDC’s. It appears, by contrast, almost nowhere in Europe or the major Asian states, Russia, China, and India. It scarcely appears, likewise, in Australia or Canada. While the United States dominates in its frequency of the usage of the term, there are some mentions in Central Asian and Middle Eastern states, some Sub-Saharan African states, some Southeast-Asian and Pacific states.
 
-Interestingly, in spite of the over-representation of the term in the high-GDP state of the US, the relative lack of prevalence in other high-GDP states (such as European states and China) reveal no correlation between income and prevalence of “private” sector ideas. Reliance on the private sector appears, that is, more a matter of cultural than purely economic traits.
+In spite of the over-representation of the term in the high-GDP state of the US, the relative lack of use in other high-GDP states (such as European states and China) reveals no correlation between income and prevalence of “private” sector ideas. Reliance on the private sector appears, that is, more a matter of cultural than purely economic traits.
 
 #### "Regulation"
 ![regulation - map](https://github.com/user-attachments/assets/237bb907-3db6-4731-be64-adb786ef7b1e)
