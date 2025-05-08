@@ -696,7 +696,16 @@ Finally, we observe a strip of land in Central Asia, the Middle East, and Africa
 Following the counting words exercise, we were interested if there was any correlation between, for example, countries with higher GDP and their focus on "economic growth" in their emissions reductions strategies, or between SIDS and the mention of "disaster" in their emissions reductions strategies.
 
 ### Method
-To determine any significant correlation between the explanatory variables 
+To determine any significant correlation between characteristics of countries such as their GDP or Human Development Index (HDI) and the discourse of their NDC's, we began by conducting a heatmap with the explanatory variables on the horizontal axis and the dependent variables on the vertical axis. Following this, we delved deeper into the correlations which were significant (p-value < 0.05), represented by a '*' in the heatmap, and had larger coefficients. The regressions we focussed on were also informed through intuition upon looking at the maps we produced, whereby we could clearly see a relation between the number of times a word was used in an NDC and country characteristics.
+
+The explanatory variables we used were as follows: 
+
+| Explanatory variable | Description |
+| --- | --- |
+|Green growth | growth, economic growth, green growth |
+  Recomposing Consumption and Production | consumption 
+  Degrowth | planetary boundaries, steady state, degrowth
+
 --> insert code + painstaking process of having to complement to the csv file
 
 ### *insert* Chloe's beautiful heatmap
