@@ -677,6 +677,8 @@ Finally, we observe a strip of land in Central Asia, the Middle East, and Africa
 
 ## Discussion
 
+### Summary of Counting Words Findings
+
 The first result of our counting words analysis is to demonstrate minimal integration of post- and degrowth discourses (Theme 1) into NDC commitments. Only three countries (Barbados, Cabo Verde, and Liberia) include the phrases “steady state” or “planetary boundaries,” and no countries mention “degrowth.” This insight may be useful to critics of economic growth in academic and civil society spaces, as it demonstrates a lack of conceptual penetration into national climate policy discussions.
 
 Among terms from conventional economic discourse (Theme 2), we can observe that “economic growth” is overrepresented in North America, in particular in the United States, in contrast to Northern, Southern, and Eastern Europe’s relative disinterest in the concept. “Development” yields perhaps the most striking map: states in the “Global North” (Europe, the U.S., Canada, Australia and New Zealand) make the least mention of “development” in their emissions-reduction commitments by far. China, by contrast, mentions development frequently. One observes, in fact, strong development discourse in Asia, followed by Latin America and Africa. 
@@ -690,9 +692,6 @@ Energy observations are more mixed; Brazil and China frequently mention “fossi
 For Theme 5, we notice that mitigation, or climate change prevention, is far more prevalent in the Southern Hemisphere than the Northern. the US, Canada, Europe, Russia, and China scarcely mention it, while African, other Asian, and Latin American countries mention it relatively frequently. Low income countries reference mitigation in general far more than high-income countries. “Adaptation” is similarly absent in high-income state NDCs, but Russia and China break from their North American and European counterparts to mention it more frequently.
 
 Finally, we can notice a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states; again, more so for low-income than high-income states, while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
-
-
-### Summary of Counting Words Findings
 
 ### Limitations
 
