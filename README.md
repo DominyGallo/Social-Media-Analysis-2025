@@ -734,7 +734,7 @@ Energy observations are more mixed; Brazil and China frequently mention “fossi
 
 For Theme 5, we notice that mitigation, or climate change prevention, is far more prevalent in the Southern Hemisphere than the Northern. the US, Canada, Europe, Russia, and China scarcely mention it, while African, other Asian, and Latin American countries mention it relatively frequently. Low income countries reference mitigation in general far more than high-income countries. “Adaptation” is similarly absent in high-income state NDCs, but Russia and China break from their North American and European counterparts to mention it more frequently.
 
-Finally, we can notice a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states; again, more so for low-income than high-income states, while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
+Finally, we can notice a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states--again, more so for low-income than high-income states--while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
 
 ### Limitations
 
