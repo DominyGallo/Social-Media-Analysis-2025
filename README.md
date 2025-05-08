@@ -717,12 +717,24 @@ The explanatory variables we used were as follows:
   Small Island Developing States | Dummy variable for SIDS where 1 = Country is a SIDS and 0 = Country is not a SIDS
   OECD | Dummy variable for OECD countries where 1 = Country is an OECD country and 0 = Country is not an OECD country
 
+        import pandas as pd
+        import statsmodels.api as sm
+        import matplotlib.pyplot as plt
+        import numpy as np
+        import seaborn as sns
+
 --> insert code + painstaking process of having to complement to the csv file
 
 ### Results
 Our regression heatmap highlighted some significant correlation between certain country characteristics and the discourse in their NDCs:
 
 ![image](https://github.com/user-attachments/assets/6ae549a8-9d97-4fcc-9e9b-3d32ac87e4e1)
+
+We can see from the heatmap that whilst there are significant correlations between the GDP of a country and the number of times certain words are mentioned in their NDCs (innovation, clean energy, fossil fuels and adaptation) the size of the coefficient is very small and close to zero.
+
+The Human Development Index (HDI) of a country had a significant, negative correlation with the number of times the words disaster, growth, mitigation, adaptation, fossil fuel, development, private and technology were mentioned in their NDC. The HDI had a positive correlation with innovation and fossil fuels, however the coefficients were very small and close to zero. The largest significant correlation was between the HDI of a country and the number of times development was mentioned in their NDC - the higher a country’s human development index, the less times development was mentioned in their NDC. A similar relationship is found for adaptation and mitigation. Specifically, the model estimates that for every 0.1 increase in the HDI, the NDC mentions development 0.01 less times, and adaptation and mitigation 0.0009 less times respectively. 
+
+Further, LDCs were more likely to mention mitigation, adaptation and development than non-LDCs. SIDS were also more likely to mention development, energy and disaster. OECD countries were less likely to mention development, adaptation, mitigation, and energy.
 
 ## Discussion and Conclusion
 
