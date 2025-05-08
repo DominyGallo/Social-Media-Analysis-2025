@@ -677,12 +677,30 @@ Finally, we observe a strip of land in Central Asia, the Middle East, and Africa
 
 ## Discussion
 
+The first result of our counting words analysis is to demonstrate minimal integration of post- and degrowth discourses (Theme 1) into NDC commitments. Only three countries (Barbados, Cabo Verde, and Liberia) include the phrases “steady state” or “planetary boundaries,” and no countries mention “degrowth.” This insight may be useful to critics of economic growth in academic and civil society spaces, as it demonstrates a lack of conceptual penetration into national climate policy discussions.
+
+Among terms from conventional economic discourse (Theme 2), we can observe that “economic growth” is overrepresented in North America, in particular in the United States, in contrast to Northern, Southern, and Eastern Europe’s relative disinterest in the concept. “Development” yields perhaps the most striking map: states in the “Global North” (Europe, the U.S., Canada, Australia and New Zealand) make the least mention of “development” in their emissions-reduction commitments by far. China, by contrast, mentions development frequently. One observes, in fact, strong development discourse in Asia, followed by Latin America and Africa. 
+
+Another useful insight is that states of the Global North, who incur the most obligations under the principle, are least likely to make any reference to common but differentiated responsibilities—the term appears not at all in any Western or Eastern European, North American, or Australian NDC.
+
+Theme 3 yields some targeted insights about country attitudes to innovation and the private sector. We observe the U.S.’s strong ideological commitment to innovation in comparison with the rest of the world. We also observe its prevalence in Saudi Arabia, China, Canada, and Brazil, and its relative absence in the rest of Asia, Europe, and Africa. High income states are significantly more likely to discuss “innovation” in their NDCs than low-income states. Alongside this insight, we can observe the strong prevalence of discussions of “technology” in Asian NDCs in comparison with the rest of the world. The U.S.’s strong prevalence of “innovation” is complemented by its frequent mentions of the “private” in comparison with almost every other state. References to the “private” do not reveal a correlation with income, as other high-income states (particularly in Europe) do not share the U.S.’s affinity for the term. We can observe, on the other hand, the strong prevalence of “regulation” in the European NDCs and its near absence in the rest of the world. 
+
+Energy observations are more mixed; Brazil and China frequently mention “fossil fuels,” which appear relatively infrequently in low and lower middle income countries. “Energy transition” is a popular phrase in Brazil and the UK, while “clean energy” is more popular in the U.S. than anywhere else. Finally, “renewable,” which occurs overall more frequently than “clean” energy, is mentioned least frequently in Europe, North America, Australia and New Zealand, and Eastern Asia.
+
+For Theme 5, we notice that mitigation, or climate change prevention, is far more prevalent in the Southern Hemisphere than the Northern. the US, Canada, Europe, Russia, and China scarcely mention it, while African, other Asian, and Latin American countries mention it relatively frequently. Low income countries reference mitigation in general far more than high-income countries. “Adaptation” is similarly absent in high-income state NDCs, but Russia and China break from their North American and European counterparts to mention it more frequently.
+
+Finally, we can notice a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states; again, more so for low-income than high-income states, while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
+
+
+### Summary of Counting Words Findings
+
 ### Limitations
 
 Our data is quite sparse -> tried to take into account the length of the NDC files.
 For Europe, all EU countries have the same NDC -> which might modify the data, we decided it would be pertinent to replicate it, which might make it difficult (word choice in these NDCs might thus be exaggerated), we tried to factor this in by focusing on sub-regions as point of analysis.
 
 ## Conclusion
+
 
 
 ## References
