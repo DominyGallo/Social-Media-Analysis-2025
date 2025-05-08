@@ -685,12 +685,15 @@ Moreover, high income states seem to have the lowest prevalence by far of the te
 The word “agriculture” is most common in Central and Southern Asia and Sub-Saharan Africa. By Income Level, we can observe that high income states are least likely to discuss agriculture and low-income states most likely, a trend which is consistent across the income levels scale.
 
 #### "Water"
-![water](https://github.com/user-attachments/assets/6672bbe5-cb4f-4043-aa28-296a66fd6490)
+![water](https://github.com/user-attachments/assets/3a73eb5b-5092-4d30-88c4-70d0bf5388af)
+![water - graph - subregion](https://github.com/user-attachments/assets/858bfa32-afd4-4102-97c6-63275e5ee7ed)
+![water - graph - income](https://github.com/user-attachments/assets/3b654725-bd09-47f0-97e3-a182b7e75598)
 
 Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid and water-scarce states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term, alongside Bolivia, where water politics are historically controvercial. Global North states reference water infrequently. The worldwide map does not exactly correlate to a map of water stress, although there is some overlap (source: World Resources Institute):
 
 ![23-08-02-aqueduct-4 0-launch-global-countries-baseline_Insights](https://github.com/user-attachments/assets/5b9aab85-bba7-41bb-9366-d5ea31e234ba)
 
+We do observe, however, that Global North states (in Australia and New Zealand, North America, and Europe) mention water the least; high income states in general are also far less likely to discuss water than low-income states.
 
 ## Regression Analysis
 Following the counting words exercise, we were interested if there was any correlation between, for example, countries with higher GDP and their focus on "economic growth" in their emissions reductions strategies, or between SIDS and the mention of "disaster" in their emissions reductions strategies.
