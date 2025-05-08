@@ -799,7 +799,7 @@ For **Theme 5**, we notice that mitigation, or climate change prevention, is far
 
 Finally, withing **Theme 6**, we note a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states--again, more so for low-income than high-income states--while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
 
-[REGRESSION SUMMARY]
+Following the analysis by theme, we ran several regressions to test correlation between the characteristics of a country and the number of times specific words were used in their NDCs. The most significant correlation was seen between a country's Human Development Index and the number of times they mentioned _'development'_ with countries with a higher HDI mentioning development less.
 
 ### Limitations
 
