@@ -728,7 +728,43 @@ The explanatory variables we used were as follows:
         import numpy as np
         import seaborn as sns
 
---> insert code + painstaking process of having to complement to the csv file
+        df=pd.read_csv('Reg_NDC_1.csv')
+
+        # Path to your CSV
+        print(df.head())
+
+        dependent_vars = ['disaster_count_normalized','energy_count_normalized','growth_count_normalized','mitigation_count_normalized','adaptation_count_normalized','planetary_boundaries_count_normalized','fossil_fuels_count_normalized','economic_growth_count_normalized','clean_energy_count_normalized','energy_transition_count_normalized','development_count_normalized','private_count_normalized','technology_count_normalized','innovation_count_normalized','industry_count_normalized']
+        independent_vars = ['GDP USD Mar 2025', 'Human Development Index 2022', 'Least Developed Countries (LDC)','Small Island Developing States (SIDS)','OECD',]
+
+        # Initialize matrices
+        coef_matrix = pd.DataFrame(index=dependent_vars, columns=independent_vars, dtype=float)
+        annot_matrix = pd.DataFrame(index=dependent_vars, columns=independent_vars, dtype=str)
+
+        # Loop through each dependent and independent variable pair
+        for dep in dependent_vars:
+            for var in independent_vars:
+                sub_df = df[[dep, var]].dropna()
+
+        if len(sub_df) < 2:  # not enough data points
+            coef_matrix.loc[dep, var] = None
+            annot_matrix.loc[dep, var] = ""
+            continue
+
+        X = sm.add_constant(sub_df[[var]])
+        y = sub_df[dep]
+        model = sm.OLS(y, X).fit()
+
+        coef = model.params[var]
+        pval = model.pvalues[var]
+
+        coef_matrix.loc[dep, var] = coef
+        annot_matrix.loc[dep, var] = "*" if pval < 0.05 else ""
+
+        # Plot the heatmap
+        plt.figure(figsize=(10, 6))
+        sns.heatmap(coef_matrix.astype(float), annot=annot_matrix.values, fmt='s', cmap="PiYG", center=0, cbar_kws={'label': 'Coefficient'})
+        plt.title("Simple Regression Coefficient Heatmap (* = p < 0.05)")
+        plt.show()
 
 ### Results
 Our regression heatmap highlighted some significant correlation between certain country characteristics and the discourse in their NDCs:
