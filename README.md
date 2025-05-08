@@ -722,6 +722,8 @@ The explanatory variables we used were as follows:
   Small Island Developing States | Dummy variable for SIDS where 1 = Country is a SIDS and 0 = Country is not a SIDS
   OECD | Dummy variable for OECD countries where 1 = Country is an OECD country and 0 = Country is not an OECD country
 
+### Code
+
         import pandas as pd
         import statsmodels.api as sm
         import matplotlib.pyplot as plt
