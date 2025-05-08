@@ -655,12 +655,12 @@ Moreover, high income states seem to have the lowest prevalence by far of the te
 ![agriculture - graph - subregion](https://github.com/user-attachments/assets/5ddaac88-de1c-4379-b343-4cc6e2439322)
 ![agriculture - graph - income](https://github.com/user-attachments/assets/35d695fd-48ed-4a2a-a728-95ed9a0f8342)
 
-The word “agriculture” is most common in Central and Southern/Southeastern Asia and Sub-Saharan Africa. Observing the map, it appears to be a concern for many African states, with at least two outliers (Mali and Kenya) accounted for by lack of available data. By Income Level, we can observe that high income states are the least likely to discuss agriculture and low-income states most likely.
+The word “agriculture” is most common in Central and Southern/Southeastern Asia and Sub-Saharan Africa. Observing the map, it appears to be a concern for many African states. By Income Level, we can observe that high income states are the least likely to discuss agriculture and low-income states most likely.
 
 #### "Water"
 ![water](https://github.com/user-attachments/assets/6672bbe5-cb4f-4043-aa28-296a66fd6490)
 
-Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term. The worldwide map does not exactly correlate to a map of water stress, although there is some overlap (source: World Resources Institute):
+Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid and water-scarce states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term, alongside Bolivia, where water politics are historically controvercial. Global North states reference water infrequently. The worldwide map does not exactly correlate to a map of water stress, although there is some overlap (source: World Resources Institute):
 
 ![23-08-02-aqueduct-4 0-launch-global-countries-baseline_Insights](https://github.com/user-attachments/assets/5b9aab85-bba7-41bb-9366-d5ea31e234ba)
 
