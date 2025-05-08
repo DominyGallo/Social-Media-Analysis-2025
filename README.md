@@ -545,7 +545,6 @@ The first cluster of visualizations demonstrate word counts for terms associated
 ![Steady State](https://github.com/user-attachments/assets/8be981d6-c4aa-42e9-bb37-ad220c8afa75)
 
 #### "Degrowth"
-![degrowth](https://github.com/user-attachments/assets/02e908ff-1634-4f1d-afd3-752c310f1a27)
 ![degrowth](https://github.com/user-attachments/assets/7fe256a7-0291-4f5d-9611-f52861b97eb3)
 
 The phrase “steady state” is only used in Barbados’s NDC, and “planetary boundaries” in Cabo Verde’s and Liberia’s. The word “degrowth” appears in no NDCs in the corpus. We can therefore conclude that post-growth and degrowth concepts, although circulating in certain spheres of academic discourse, have not been widely integrated into national emissions-reduction commitments.
