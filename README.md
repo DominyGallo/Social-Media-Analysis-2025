@@ -304,10 +304,10 @@ As a next step, to ensure the reliability of results, it would be necessary to i
 
 
 ## Counting Words
-The next step of our method involved counting specific words to understand countries' approach to meeting the Paris Agreement within their unique social and ecological context and culture. The actions by countries to reduce their national emissions can take on a multitude of dimensions, from the sectors they focus on to the balance of focus between technological solutions and behavioural solutions.  We conducted a short literature review to inform the words that we chose to count.
+The next step of our method involved counting specific words to understand countries' approach to meeting the Paris Agreement within their unique socio-ecological context and culture. The actions by countries to reduce their national emissions can take on a multitude of dimensions, from the sectors they focus on to the balance between technological and behavioural solutions.  We conducted a short literature review to inform the words that we chose to count.
 
 ### Literature Review
-We initially set out to understand countries' attitude towards economic growth in their NDCs. To do so, we employed Schulze Waltrup's (2025) eco-social policy typology whereby the four types differ towards their approach towards economic growth. Based Schulze Waltrup's description of each type, we chose several words through which we could identify the type of policies which a countries' NDC focussed on. The typologies and associated words or phrases were as follows:
+We initially set out to understand countries' attitude towards economic growth in their NDCs. To do so, we employed Schulze Waltrup's (2025) eco-social policy typology whereby the four types differ in their approach towards economic growth. Based on Schulze Waltrup's description of each type, we chose several words through which we could identify the type of policies which a country's NDC focused on. The typologies and associated words or phrases were as follows:
 
 | Type of eco-social policy | Key words and phrases |
 | --- | --- |
@@ -315,7 +315,7 @@ We initially set out to understand countries' attitude towards economic growth i
   Recomposing Consumption and Production | consumption 
   Degrowth | planetary boundaries, steady state, degrowth
 
-Given the unique ecological, social and economic complexities of each country, we were also interested in understanding the key themes or sectors countries' NDCs alluded to, and the extent to which the focus was on technological solutions. To determine the words for this, we referred to the EU Taxonomy Compass and the themes outlined in the NDC climate toolbox, from which we chose the following words:
+Given the unique ecological, social and economic complexities of each country, we were also interested in understanding the key themes or sectors countries' NDCs alluded to, and the extent to which the focus was on technological solutions. To determine the words for this, we referred to the EU Taxonomy Compass and the themes outlined in the [NDC climate toolbox]([url](https://ndcpartnership.org/knowledge-portal/climate-toolbox)), from which we chose the following words:
 
 - disaster
 - energy
