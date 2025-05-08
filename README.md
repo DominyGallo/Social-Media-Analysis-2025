@@ -645,9 +645,10 @@ The phrase “clean energy” is another term most prevalent by far in the Unite
 We next considered the prevalence of ideas like "mitigation," or reducing climate impacts, and "adaptation" to the effects of climate change.
 
 #### "Mitigation"
-![Mitigation](https://github.com/user-attachments/assets/ec285821-07df-46b6-8ab6-f6b5af687fcd)
-![Mitigation - Sub-Region Graph](https://github.com/user-attachments/assets/0036265e-409f-48a7-a12f-0c88fe2f6988)
-![Mitigation - Income Level Graph](https://github.com/user-attachments/assets/a8933767-579a-442a-9169-5c2124a6d39f)
+![mitigation - map](https://github.com/user-attachments/assets/f9ad1a8b-e387-4da7-921e-1369ee5a6c2e)
+![mitigation - graph - subregion](https://github.com/user-attachments/assets/2029b12d-9cb8-4d76-8611-cd056034b31d)
+![mitigation - graph - income](https://github.com/user-attachments/assets/39a16e0b-49df-4a0b-9041-f86b50f0626e)
+
 
 A cursory look at the graph reveals that “mitigation,” or prevention of climate change, is far more prevalent in the Southern Hemisphere than the Northern. Europe and Northern America have the lowest frequencies for the term. It is most prevalent in Sub-Saharan and Northern Africa, followed by South-eastern Asia and Latin America and the Caribbean. It is scarcely mentioned by the US, Canada, European States, Russia, or China. The Income Level graph indicates indeed that high income states have the fewest references to “mitigation,” and low-income states, the most.
 
