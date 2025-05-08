@@ -17,7 +17,7 @@ With the 1,5°C Paris target seeming  increasingly out of reach, far  greater em
 
 ## Data Processing
 
-For the purposes of this project, we have used the Nationally Determined Contributions (NDCs) provided in the UNFCCC Secretariat's database as a point of analysis. From this, we have approximately 200 datapoints, ranging from various countries and regions from around the world. Website: [https://unfccc.int/NDCRE] 
+For the purposes of this project, we have used the Nationally Determined Contributions (NDCs) provided in the UNFCCC Secretariat's database as a point of analysis. From this database, we gather 194 country datapoints. Website: [https://unfccc.int/NDCRE] 
 
 To obtain a base list of these documents along with their urls and essential metadata, we used the openclimatedata Github page ‘ndcs’: [https://github.com/openclimatedata/ndcs/blob/main/data/ndcs.csv]. This page provides an automatically updated record from the UNFCCC website in CSV form and includes country code, party (i.e. author country), title, type of document (NDC, addendum, translation, etc), language, URL, version and status (i.e. archived, active). 
 
