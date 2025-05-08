@@ -693,11 +693,10 @@ Finally, we observe a strip of land in Central Asia, the Middle East, and Africa
 
 
 ## Regression Analysis
-
---> perhaps an explanation of why we want to do a regression analysis?
+Following the counting words exercise, we were interested if there was any correlation between, for example, countries with higher GDP and their focus on "economic growth" in their emissions reductions strategies, or between SIDS and the mention of "disaster" in their emissions reductions strategies.
 
 ### Method
-
+To determine any significant correlation between the explanatory variables 
 --> insert code + painstaking process of having to complement to the csv file
 
 ### *insert* Chloe's beautiful heatmap
