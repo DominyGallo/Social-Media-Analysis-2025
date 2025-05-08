@@ -295,10 +295,10 @@ According to the parameters set through our BERTopic modelling, we obtained appr
 
 *A few key observations*:
 - **Topic 3**: Focusing on Oman, Egypt, Qatar and Kuwait, it is interesting that this topic is one of the few where the word "economic" is present, alongside words such as "national", "sector", "water" and "energy".
-- **Topic 10**: this topic is interesting because it reflects our previous remarks on Canada’s top words. For instance, there are words related to “indigenous”, “emissions”, “federal” and “clean”. 
+- **Topic 10**: This topic is interesting because it reflects our previous remarks on Canada’s top words. For instance, there are words related to “indigenous”, “emissions”, “federal” and “clean”. 
 - **Topic 15**: With reference to Korea, Georgia and Montenegro, the key topic words that appear include "carbon", "target", "ghg", and most surprisingly "neutrality".
-- **Topic 16**: It is quite staggering that the topic modelling was able to group together small island developing states together, such as “Grenada”, “Jamaica”, “Tobago” and “Trinidad” are all within the same topic.
-
+- **Topic 16**: It is notable that the topic modelling was able to group small island developing states together, such as “Grenada”, “Jamaica”, “Tobago” and “Trinidad.”
+  
 #### Limitations
 As a next step, to ensure the reliability of results, it would be necessary to include code that would divide the txt files by paragraph. This would guarantee more accurate results than the ones we have obtained above. For the purposes of this project, the reliability of our topics is not concerning, as this modeling was used to inspire our selection of keywords, alongside our top words across NDCs, rather than shaping our entire analysis. If you ever do manage to complete this step, we would be eager to see your results!
 
