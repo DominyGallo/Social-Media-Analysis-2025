@@ -546,7 +546,7 @@ The first cluster of visualizations demonstrate word counts for terms associated
 
 The phrase “steady state” is only used in Barbados’s NDC, and “planetary boundaries” in Cabo Verde’s and Liberia’s. The word “degrowth” appears in no NDCs in the corpus. We can therefore conclude that post-growth and degrowth concepts, although circulating in certain spheres of academic discourse, have not been widely integrated into national emissions-reduction commitments.
 
-### Theme 2: Economics
+### Theme 2: Green Growth
 
 Having demonstrated the lack of terms from discourses critical of economic growth in an ecological context, we tested "economic growth" and "development," to test for persistent country interests in the relationship between emissions reduction and increasing GDP. These terms revealed themselves to be far more prevalent across the corpus. In this category, we also tested for common but "differentiated responsibilities," which accounts for the principle that higher-income states should contribute more financially to climate mitigation and adaptation efforts.
 
