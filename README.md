@@ -532,13 +532,13 @@ As visible in the sub-region graph, “economic growth” appears most commonly 
 
 
 #### "Development"
-![development - map2](https://github.com/user-attachments/assets/06b14a73-eb84-4dec-9de7-25834faf0889)
-![Development - Graph - subregion](https://github.com/user-attachments/assets/56415471-bc27-4f4e-8123-184b9f58ed3d)
-![Development - Graph - income](https://github.com/user-attachments/assets/104476c6-b3c3-443c-b856-6f0ab4dba236)
+![development - map](https://github.com/user-attachments/assets/9b2f55d4-7d68-4327-a14e-1b44905be6aa)
+![development - graph - subregion](https://github.com/user-attachments/assets/3701ee6c-b85f-4d17-9dcc-7e98852a538e)
+![development - graph - income](https://github.com/user-attachments/assets/9f9a1fb3-b19d-44fb-a2f3-52006f04dde3)
 
 “Development” yields a much clearer picture. It is least prevalent in Northern and Western Europe, Australia and New Zealand, then Northern America and Eastern Europe. We should take note of the significant difference between the United States and Canada’s NDCs and Mexico’s, which has a much higher prevalence for the word, as indicated on the map. We can thus observe that those regions commonly referred to as the “Global North”—Europe, the U.S. and Canada, and Australia and New Zealand—are least concerned with “development” in their emissions-reduction commitments.
 
-By contrast, the term is most prevalent in Asia, in particular Central Asia, then South-eastern and Southern Asia. Per the map, China’s normalized count is relatively high, alongside several Central Asian states: Turkmenistan, Uzbekistan, Afghanistan, Tajikistan, and Kyrgyzstan. Thailand, the Philippines, Indonesia, and especially Papua New Guinea, moving east into the Pacific, also have notably high counts. Russia and Brazil, though lower on the scale than China, appear to have similarly high frequencies for the term. In Latin America, the frequency is consistently moderate to high. Among African States, frequencies appear inconsistent though generally moderate, with Mauritania, Tanzania, and Somalia standing out for their particularly high counts; two of the 0-occurrence states are in fact the result of data processing issues (Mali and Kenya), indicating the overall positioning of Africa relative to development may be higher than the data shows.
+By contrast, the term is most prevalent in Asia, in particular Central Asia, then South-eastern and Southern Asia, closely followed by Sub-Saharan Africa. Per the map, China’s normalized count is relatively high, alongside several Central Asian states: Turkmenistan, Uzbekistan, Afghanistan, Tajikistan, and Kyrgyzstan. Thailand, the Philippines, Indonesia, and especially Papua New Guinea, moving east into the Pacific, also have notably high counts. Russia and Brazil, though lower on the scale than China, appear to have similarly high frequencies for the term. In Latin America and Africa, the frequency is consistently moderate to high.
 
 The Income Level graph reveals, indeed, that high income states are the least likely to mention development in their NDCs, a phenomenon reflected in the relative scarcity of the term in North America, Europe, and Australia. From low to upper-middle income, however, income level seems not to be strongly correlated to prevalence, and regional trends appear to dominate, with development discourse most prevalent in Asia and the Pacific, then in Latin America and Africa, and least of all in the “Global North.”
 
