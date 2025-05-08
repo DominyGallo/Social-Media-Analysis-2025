@@ -685,6 +685,8 @@ A useful term to think about in relation to “adaptation” is “disaster,” 
 
 Although the regions with high “disaster” counts are notably exposed to natural disasters, infrequency of the word does not correlate to infrequency of hazards, as indicated by this map (source: https://journals.openedition.org/cybergeo/25297?lang=es): 
 
+![Disaster Map](https://github.com/user-attachments/assets/63bf1291-0279-4317-81a6-52a56373203f)
+
 Moreover, high income states seem to have the lowest prevalence by far of the term, but the trend is not linear.
 
 ![disaster - graph - income](https://github.com/user-attachments/assets/bd158774-987c-4a27-a1e3-6f21a19fc8d8)
