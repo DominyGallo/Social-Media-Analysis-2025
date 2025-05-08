@@ -624,13 +624,15 @@ We then tested a set of words associated with **energy** policy, including "foss
 #### "Energy"
 ![energy](https://github.com/user-attachments/assets/d84c72d3-5616-487c-93ae-0763bc82455f)
 
-We first observe an overall "energy" map, with high prevalence in East Asia and North America, with notably high rates in China, Saudia Arabia, and several Central Asian and Middle Eastern states, in contrast with the lower observed prevalence in Sub-Saharan Africa, Latin America, Russia, Europe, and Australia. 
+We first observe an overall "energy" map, with high prevalence in East Asia and North America, with notably high rates in China, Saudia Arabia, and several Central Asian and Middle Eastern states, in contrast with the lower observed use of the word in Sub-Saharan Africa, Latin America, Russia, Europe, and Australia. 
 
 #### "Fossil Fuels"
 ![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
 ![Fossil Fuels - Graph](https://github.com/user-attachments/assets/ced0a6e3-4b07-4f0b-b716-11f38c0c000d)
 
-The phrase “fossil fuels” is most prevalent in China, Afghanistan, and Brazil. It appears almost not at all in Sub-Saharan Africa, all of the Pacific states between India and Australia, Russia, Mexico, and Western Latin American states. It has some prevalence, by contrast, in the United States and Europe. On the Income Level graph, we observe indeed that high income countries are most likely to discuss fossil fuels in their NDCs, and low and lower-middle income states are significantly less likely to do so. 
+The phrase “fossil fuels” is most prevalent in China, Afghanistan, and Brazil. It appears almost not at all in Sub-Saharan Africa, all of the Pacific states between India and Australia, Russia, Mexico, and Western Latin American states. It does appear, by contrast, in the NDCs of the United States and Europe. On the Income Level graph, we observe indeed that high income countries are most likely to discuss fossil fuels in their NDCs, and low and lower-middle income states are significantly less likely to do so.
+
+We looked into more depth on the presence of the word "fossil fuels" in China's NDC and the limited use of "renewables", given China's leading role in global renewable capacity. We found that where China's NDC refers to "fossil fuels", 75% of the time it is in the context of "non-fossil-fuels", a term used to encompass renewable energy as well as nuclear. This reinforces the limitations of the counting word exercise without taking the time to look into greater depth the context in which they're employed.
 
 #### "Energy Transition"
 ![Energy Transition](https://github.com/user-attachments/assets/37d9e460-55aa-45db-a450-ca2d28f9f1b3)
