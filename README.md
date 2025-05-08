@@ -682,3 +682,11 @@ Our data is quite sparse -> tried to take into account the length of the NDC fil
 For Europe, all EU countries have the same NDC -> which might modify the data, we decided it would be pertinent to replicate it, which might make it difficult (word choice in these NDCs might thus be exaggerated), we tried to factor this in by focusing on sub-regions as point of analysis.
 
 ## Conclusion
+
+
+## References
+
+Jernnäs, M. and Linnér, B. (2019) ‘A discursive cartography of nationally determined contributions to the Paris climate agreement’, Global Environmental Change, 55, pp. 73–83. Available at: https://doi.org/10.1016/j.gloenvcha.2019.01.006 
+Savin, I. et al. (2025) ‘Analysing content of Paris climate pledges with computational linguistics’, Nature Sustainability, 8, pp. 297–306. Available at: https://doi.org/10.1038/s41893-024-01504-6 
+Singh, P., Lehmann, E. and Tyrrell, M. (2024) ‘Climate Policy Transformer: Utilizing NLP to track the coherence of Climate Policy Documents in the Context of the Paris Agreement’, in D. Stammbach et al. (eds) Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024). Bangkok, Thailand: Association for Computational Linguistics, pp. 1–11. Available at: https://doi.org/10.18653/v1/2024.climatenlp-1.1
+Spokoyny, D. et al. (2024) ‘Aligning Unstructured Paris Agreement Climate Plans with Sustainable Development Goals’, in D. Stammbach et al. (eds) Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024). Bangkok, Thailand: Association for Computational Linguistics, pp. 223–232. Available at: https://aclanthology.org/2024.climatenlp-1.17/ 
