@@ -815,7 +815,11 @@ For the topic modelling section, limitations include the length of the text chun
 
 ### Directions for Further Research
 
-The limitations of our study can serve as an invitation for other researchers to continue pursuing this path of inquiry. In the CSVs folder of this Repository, we have included our overarching CSV file (ndcs - sorted with indicators.csv) with all 194 data points, for future use; the drive of the .txt files we used is publicly available here: https://drive.google.com/drive/folders/12ZtqJlP5DPxZoj4jmaYRRws-f6liKhdx?usp=drive_link. This file will be useful if future researchers can convert the last NDCs from PDF to text; otherwise, the CSV file from which we removed the .txt files with errors is titled Reg_NDC_1_cleaned - Reg_NDC_1.csv. The final CSV, which is too large for users to preview, has also been cleaned and was used to create our Regression Analysis. Building on the generosity of the people behind the openclimatedata github, we have attempted to make public the work we have done to make the NDC document URLs included in their CSV usable for word processing and corpus analysis. We are excited to see what future researchers are able to do with it, taking into account the lessons we have learned and the foundations we have laid here.
+The limitations of our study can serve as an invitation for other researchers to continue pursuing this path of inquiry. In the CSVs folder of this Repository, we have included our overarching CSV file (ndcs - sorted with indicators.csv) with all 194 data points, for future use. The drive of the correspondingly .txt files we used is publicly available here: https://drive.google.com/drive/folders/12ZtqJlP5DPxZoj4jmaYRRws-f6liKhdx?usp=drive_link. This complete CSV will be useful if future researchers can generate .txt files from the NDCs we had to exclude here.
+
+We additionally included the CSV file from which we removed the empty or erroneous .txt files, which is titled Reg_NDC_1_cleaned - Reg_NDC_1.csv. The third CSV in the folder, which has also been cleaned of the problematic entries), includes the columns we was used to create our regression analysis. 
+
+Building on the generosity of the people behind the openclimatedata github, we have attempted to convert the NDC document URLs included in their CSV into publicly usable materials for word processing and corpus analysis. We are excited to see what future researchers are able to do with them, taking into account the lessons we have learned and the foundations we have laid here.
 
 ## References
 
