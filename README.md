@@ -5,14 +5,11 @@ Date: May 8, 2025
 
 ## Introduction
 
-GRAPH STYLING: 
+In 2015, 195 countries signed the Paris Agreement during COP 21, committing to limit global warming below 2°C, and as close to 1,5°C, compared to pre-industrial time. The parties engaged themselves to strengthen climate resilience and ensure that sufficient financial flows would be allocated to reach these goals globally. All member countries thus needed to elaborate a Nationally Determined Contribution (NDC) detailing the ambitious efforts they would undertake in order to reduce their emissions and adapt to climate change. Each NDC is also adapted to national circumstances, for instance to take into account specific geographic vulnerability or development challenges that some countries may face. According to the Paris Agreement, parties needed to deliver the first version of their NDC in 2020. It then needs to be updated every 5 years to ensure that the countries will pursue their efforts in the long term and keep increasing their ambition in terms of emission reduction. 
 
-Title: Average Normalized Count of "[Word]” by Income Level/Sub-region etc
-x-label: Average "[Word]" Count
+Through its NDC, each country put forward its target sectors and its strategy for climate action and sustainable development revealing a specific development paradigm that may differ between countries. Even if countries are legally binded to craft an NDC, there is a relative freedom in how the NDC should be designed, as for example the variety of length or languages attests. Therefore, the way NDCs are organised and worded can reveal information about a country’s priorities and understanding of climate change.
 
-MAP STYLING
-
-Normalized Count of '[Word]' by Country
+Existing studies have applied natural language processing (NLP) techniques to the NDCs for various purposes. Given that NDCs can vary substantially in detail and length, researchers have noted that their lack of structure can pose ‘substantial challenges to aggregating and analyzing the data, thereby complicating the assessment of global and national efforts in addressing climate change’ (Singh et al., 2024, p.1). A common focus has therefore been on using machine learning methods to annotate NDCs, either for specific discourses and commitments, or for evaluation against existing standards like the UN Sustainable Development Goals (Singh et al. 2024; Spokoyny et al. 2024). 
 
 
 ## Data Processing
