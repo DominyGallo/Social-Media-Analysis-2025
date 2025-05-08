@@ -639,13 +639,13 @@ We looked into more depth on the presence of the word "fossil fuels" in China's 
 ![Energy Transition - Income Level Graph](https://github.com/user-attachments/assets/2a55b3af-4328-43a6-a859-dfec6528a8dd)
 ![Energy Transition - Sub-Region Graph](https://github.com/user-attachments/assets/849745ba-4c6e-4bd5-8ebb-e04ca6e422ea)
 
-Brazil, the United Kingdom, and Cuba appear to have the highest prevalence of the phrase “energy transition” by far; by contrast, the phrase appears almost nowhere in Europe, Asia, the Middle East, Sub-Saharan Africa, or the rest of Latin America. It appears with some frequency in North America and Australia. The Income Level graph reveals that high and upper-middle income countries use this phrase on average more frequently than low and lower-middle income countries. When we examine by region, the average is surprising—Northern America has by far the highest averaged normalized count, despite the fact that none of its states have as high frequency levels as Brazil and the UK, because rates are moderately high across the region rather than split between singular highs and many lows, as is the case in Latin America (Brazil’s region) and Europe (the UK’s).
+Brazil, the United Kingdom, and Cuba appear to have the highest prevalence of the phrase “energy transition” by far; by contrast, the phrase appears almost nowhere in Europe, Asia, the Middle East, Sub-Saharan Africa, or the rest of Latin America. It appears with some frequency in North America and Australia. The Income Level graph reveals that high and upper-middle income countries use this phrase on average more frequently than low and lower-middle income countries. When we examine by region, the average is surprising - Northern America has by far the highest averaged normalized count, despite the fact that none of its countries have as high frequency levels as Brazil and the UK, because rates are moderately high across the region rather than split between singular highs and many lows, as is the case in Latin America (Brazil’s region) and Europe (the UK’s).
 
 #### "Clean Energy"
 ![Clean Energy](https://github.com/user-attachments/assets/7701a25b-9de5-40c1-b563-9b7b54c8c049)
 ![Clean Energy - Sub-Region Graph](https://github.com/user-attachments/assets/65a0649c-2f42-46d5-982e-063b4dd09a61)
 
-The phrase “clean energy” is another term most prevalent by far in the United States, as confirmed on the regional graph. The North American States are seconded by Australia, but by a wide margin. The phrase appears almost nowhere else.
+The phrase “clean energy” is another term employed frequently in the United States NDC, as confirmed in the regional graph. The North American sub-region are seconded by Australia, but by a wide margin. The phrase appears almost nowhere else.
 
 #### "Renewable"
 ![renewable](https://github.com/user-attachments/assets/3be13147-b0a3-4f6b-8823-f18e65c6982a)
@@ -663,7 +663,7 @@ We next considered the prevalence of ideas like "mitigation," or reducing climat
 ![mitigation - graph - subregion](https://github.com/user-attachments/assets/2029b12d-9cb8-4d76-8611-cd056034b31d)
 ![mitigation - graph - income](https://github.com/user-attachments/assets/39a16e0b-49df-4a0b-9041-f86b50f0626e)
 
-A cursory look at the graph reveals that “mitigation,” or prevention of climate change, is far more prevalent in the Southern Hemisphere than the Northern. Europe and Northern America have the lowest frequencies for the term. It is most prevalent by far in Sub-Saharan Africa, followed by Northern Africa,then South-eastern Asia and Latin America and the Caribbean. It is scarcely mentioned by the US, Canada, European States, Russia, or China. The Income Level graph indicates indeed that high income states have the fewest references to “mitigation,” and low-income states, the most.
+A cursory look at the graph reveals that “mitigation,” or prevention of climate change, is far more prevalent in the Southern Hemisphere than the Northern. For instance, Europe and Northern America have the lowest frequencies for the term. It is most prevalent by far in Sub-Saharan Africa, followed by Northern Africa, then South-eastern Asia and Latin America and the Caribbean. It is scarcely mentioned by the US, Canada, European States, Russia, or China. The Income Level graph indicates indeed that high income states have the fewest references to “mitigation,” and low-income states, the most.
 
 #### "Adaptation"
 ![adaptation](https://github.com/user-attachments/assets/b291ab48-3b13-48e1-926a-ce27cf36130e)
@@ -671,17 +671,17 @@ A cursory look at the graph reveals that “mitigation,” or prevention of clim
 ![adaptation - graph - income](https://github.com/user-attachments/assets/216a9730-1407-46ad-83cc-8008201f2a10)
 
 
-“Adaptation” reveals a slightly different picture. It is similarly the least prevalent in Europe, North America, and New Zealand, but Russia and China break from the “mitigation” trend and do make reference to “adaptation.” It is most prevalent in Melanesia, then Central Asia, followed by Northern Africa, Latin America and the Caribbean, South-eastern Asia, and finally Sub-Saharan Africa. Within Latin America, interestingly, Brazil includes rather few references while Argentina, Uruguay, Colombia, Ecuador, and Peru include more frequent notes.
+“Adaptation” reveals a slightly different picture. It is similarly the least prevalent in Europe, North America, and New Zealand, but Russia and China break from the “mitigation” trend and do make reference to “adaptation.” It is most used in Melanesia's NDC, then Central Asia, followed by Northern Africa, Latin America and the Caribbean, South-eastern Asia, and finally Sub-Saharan Africa. Within Latin America, notably, Brazil includes rather few references while Argentina, Uruguay, Colombia, Ecuador, and Peru include more frequent notes. It is worth mentioning that regions most impacted by the immediate effects of climate change such as extreme weather events are more likely to use the term "adaptation". Further, low income countries who have less capacity to adapt to climate change are also the most likely to use this term.
 
 ### Theme 6: Land-Related Discourses
 
-Finally, we look into terms that have more geographically specific relevance, such as "disaster," "agriculture," and "water."
+Finally, we look into terms that have more geographical relevance, such as "disaster," "agriculture," and "water."
 
 #### "Disaster"
 ![Disaster2](https://github.com/user-attachments/assets/60e80502-35dc-4dd9-bf87-7fc9322279ae)
 ![disaster - graph - region](https://github.com/user-attachments/assets/087917d2-0908-49bb-be51-cdbb8429165c)
 
-A useful term to think about “adaptation” is “disaster,” as an index of references to climate impacts via natural disasters. Indeed, the results reveal an over-representation in the Pacific islands of Melanesia and Polynesia as well as South-eastern and Southern Asia. They appear scarcely at all in Europe—not at all in Western Europe—and minimally in Northern America or Australia and New Zealand. 
+A useful term to think about in relation to “adaptation” is “disaster,” to capture references to climate impacts via natural disasters. Indeed, the results reveal an over-representation in the Pacific islands of Melanesia and Polynesia as well as South-eastern and Southern Asia. They appear scarcely at all in Europe—not at all in Western Europe—and minimally in Northern America, Australia and New Zealand. 
 
 Although the regions with high “disaster” counts are notably exposed to natural disasters, infrequency of the word does not correlate to infrequency of hazards, as indicated by this map (source: https://journals.openedition.org/cybergeo/25297?lang=es): 
 
@@ -695,18 +695,18 @@ Moreover, high income states seem to have the lowest prevalence by far of the te
 ![agriculture - graph - region](https://github.com/user-attachments/assets/77204ec1-5eee-4ceb-8848-48fcfbc2a973)
 ![agriculture - graph - income](https://github.com/user-attachments/assets/f153b8db-356d-4529-8982-24c0a19ce422)
 
-The word “agriculture” is most common in Central and Southern Asia and Sub-Saharan Africa. By Income Level, we can observe that high income states are least likely to discuss agriculture and low-income states most likely, a trend which is consistent across the income levels scale.
+The word “agriculture” is most common in Central and Southern Asia as well as Sub-Saharan Africa. By income level, we can observe that high income states are least likely to discuss agriculture and low-income states most likely, a trend which is consistent across the income levels scale.
 
 #### "Water"
 ![water](https://github.com/user-attachments/assets/3a73eb5b-5092-4d30-88c4-70d0bf5388af)
 ![water - graph - subregion](https://github.com/user-attachments/assets/858bfa32-afd4-4102-97c6-63275e5ee7ed)
 ![water - graph - income](https://github.com/user-attachments/assets/3b654725-bd09-47f0-97e3-a182b7e75598)
 
-Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid and water-scarce states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term, alongside Bolivia, where water politics are historically controvercial. Global North states reference water infrequently. The worldwide map does not exactly correlate to a map of water stress, although there is some overlap (source: World Resources Institute):
+Finally, we observe a strip of land in Central Asia, the Middle East, and Africa for whom “water” is a primary concern. Arid and water-scarce states such as Jordan, Iraq, and Saudi Arabia demonstrate particularly high frequency for the term, alongside Bolivia, where water politics are historically controversial. Global North countries reference water infrequently. The worldwide map does not exactly correlate to a map of water stress, although there is some overlap (source: World Resources Institute):
 
 ![23-08-02-aqueduct-4 0-launch-global-countries-baseline_Insights](https://github.com/user-attachments/assets/5b9aab85-bba7-41bb-9366-d5ea31e234ba)
 
-We do observe, however, that Global North states (in Australia and New Zealand, North America, and Europe) mention water the least; high income states in general are also far less likely to discuss water than low-income states.
+We do observe, however, that Global North states (Australia and New Zealand, North America, and Europe) mention water the least; high income states in general are also far less likely to discuss water than low-income states.
 
 ## Regression Analysis
 Following the counting words exercise, we were interested if there was any correlation between, for example, countries with higher GDP and their focus on "economic growth" in their emissions reductions strategies, or between SIDS and the mention of "disaster" in their emissions reductions strategies.
