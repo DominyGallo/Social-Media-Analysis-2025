@@ -281,10 +281,11 @@ In this next step, you can obtain the topic information (and check that the proc
 
 Visualise as a barchart the topic modeling:
 
-    topic_model.visualize_barchart(top_n_topics=22,n_words=10)
+    topic_model.visualize_barchart(top_n_topics=21,n_words=10)
 
 ### Topic Modeling Output
-![Topic Modeling with BERTopic](https://github.com/user-attachments/assets/6b7b9d34-41c3-4bcf-a1c5-6c66d94d9839)
+![Topic Modeling with BERTopic](https://github.com/user-attachments/assets/e0289141-38c6-419b-83e0-78a9affac5e3)
+
 
 
 ### Analysis
