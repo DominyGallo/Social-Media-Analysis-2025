@@ -593,10 +593,11 @@ The next group of words considers the NDCs’ ideological affiliation with “in
 We can observe that “innovation” is far and away most prevalent in Northern American NDCs, especially in the United States and Mexico. It is notably prevalent in Saudi Arabia’s NDC’s, China’s, Canada’s, and Brazil’s, but these outliers do not contribute to consistent regional significance anywhere but in Northern America, per the sub-region graph. Western Europe has the second-highest prevalence of the term, though it is significantly behind North America in this regard. The Income Level graph demonstrates a strong correlation between high income and high prevalence of “innovation” in NDCs—the lower the income, the less frequent is the term. 
 
 #### "Technology"
-![technology - map](https://github.com/user-attachments/assets/a3c21c8a-bcd8-40cb-9561-dbbf0f683f37)
-![technology - graph - subregion](https://github.com/user-attachments/assets/99f1fc72-b63d-4ac5-8d1d-c40be9473a14)
+![technology - graph - region](https://github.com/user-attachments/assets/6c38b7cc-6fc0-4edc-9268-3fecdac20be1)
+![technology2](https://github.com/user-attachments/assets/fa2050cf-8b34-486a-becc-3433254e832d)
+![technology - graph - income](https://github.com/user-attachments/assets/8c32f74e-0d1e-4e42-a632-29aee5ae0d2b)
 
-“Technology” shows a slightly different picture. It is most prevalent in Southern and South-Eastern Asia, with notable frequency in India and some prevalence in Saudi Arabia, Iraq, Afghanistan, Indonesia, and Thailand. It is also relatively frequent in China. It appears almost not at all anywhere in Europe. 
+“Technology” shows a slightly different picture. It is most prevalent in Southern and South-Eastern Asia, with notable frequency in India and some prevalence in Saudi Arabia, Iraq, Afghanistan, Indonesia, and Thailand. It is also relatively frequent in China. It appears almost not at all anywhere in Europe. High-income countries are the least likely to mention it in comparison with others.
 
 It is not clear, from a simple word-counting process, to determine the context in which “technology” is used. It could indicate the belief in technology as a solution to the climate crisis. The lack of overlap between the technology and innovation graphs, could, however, indicate that “technology” acquires different meanings. It could be used in the context of actual technology transfers, or low-technology states requesting technological assistance from higher-tech states, in contrast to the principle of technological innovation.
 
@@ -675,18 +676,17 @@ A cursory look at the graph reveals that “mitigation,” or prevention of clim
 Finally, we look into terms that have more geographically specific relevance, such as "disaster," "agriculture," and "water."
 
 #### "Disaster"
-![Disaster](https://github.com/user-attachments/assets/d180ad76-39a0-4e8c-8746-033d364f6be6)
-![Disaster - Sub Region Graph](https://github.com/user-attachments/assets/3134cda9-c48e-4739-9ab3-b9b04ffc0483)
+![disaster - graph - region](https://github.com/user-attachments/assets/087917d2-0908-49bb-be51-cdbb8429165c)
+![Disaster2](https://github.com/user-attachments/assets/60e80502-35dc-4dd9-bf87-7fc9322279ae)
 
 A useful term to think about “adaptation” is “disaster,” as an index of references to climate impacts via natural disasters. Indeed, the results reveal an over-representation in the Pacific islands of Melanesia and Polynesia as well as South-eastern and Southern Asia. They appear scarcely at all in Europe—not at all in Western Europe—and minimally in Northern America or Australia and New Zealand. 
 
 Although the regions with high “disaster” counts are notably exposed to natural disasters, infrequency of the word does not correlate to infrequency of hazards, as indicated by this map (source: https://journals.openedition.org/cybergeo/25297?lang=es): 
 
-![Disaster Map](https://github.com/user-attachments/assets/45bec81a-065f-4316-8f22-567f5ed06d9b)
-
 Moreover, high income states seem to have the lowest prevalence by far of the term, but the trend is not linear.
 
-![Disaster - Income Level Graph](https://github.com/user-attachments/assets/3d5550f5-6a71-4937-9021-f11e11b1ca80)
+![disaster - graph - income](https://github.com/user-attachments/assets/bd158774-987c-4a27-a1e3-6f21a19fc8d8)
+
 
 #### "Agriculture"
 ![agriculture](https://github.com/user-attachments/assets/3149b533-909e-49c2-9c53-77c4b1debd93)
@@ -799,7 +799,7 @@ Energy observations (**Theme 4**) are more mixed; Brazil and China frequently me
 
 For **Theme 5**, we notice that mitigation, or climate change prevention, is far more prevalent in the Southern Hemisphere than the Northern. the US, Canada, Europe, Russia, and China scarcely mention it, while African, other Asian, and Latin American countries mention it relatively frequently. Low income countries reference mitigation in general far more than high-income countries. “Adaptation” is similarly absent in high-income state NDCs, but Russia and China break from their North American and European counterparts to mention it more frequently.
 
-Finally, withing **Theme 6**, we note a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states--again, more so for low-income than high-income states--while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
+Finally, within **Theme 6**, we note a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states--again, more so for low-income than high-income states--while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
 
 Following the analysis by theme, we ran several regressions to test correlation between the characteristics of a country and the number of times specific words were used in their NDCs. The most significant correlation was seen between a country's Human Development Index and the number of times they mentioned _'development'_ with countries with a higher HDI mentioning development less.
 
