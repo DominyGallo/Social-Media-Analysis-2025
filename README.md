@@ -623,7 +623,7 @@ We then tested a set of words associated with **energy** policy, including "foss
 #### "Energy"
 ![energy](https://github.com/user-attachments/assets/d84c72d3-5616-487c-93ae-0763bc82455f)
 
-We first observe an overall "energy" map, with high prevalence in China and Saudi Arabia and less relevance in Sub-Saharan Africa and Latin America.
+We first observe an overall "energy" map, with high prevalence in East Asia and North America, with notably high rates in China, Saudia Arabia, and several Central Asian and Middle Eastern states, in contrast with the lower observed prevalence in Sub-Saharan Africa, Latin America, Russia, Europe, and Australia. 
 
 #### "Fossil Fuels"
 ![Fossil Fuels](https://github.com/user-attachments/assets/d5f2cf12-e6b4-40ba-8f5a-3776ba6a42cf)
