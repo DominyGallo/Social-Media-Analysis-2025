@@ -593,8 +593,8 @@ The next group of words considers the NDCs’ ideological affiliation with “in
 We can observe that “innovation” is by far most prevalent in Northern American NDCs, especially in the United States and Mexico. It is notably mentioned in Saudi Arabia’s, China’s, Canada’s, and Brazil’s NDCs, but these outliers do not contribute to consistent regional significance anywhere but in Northern America, per the sub-region graph. Western Europe has the second-highest prevalence of the term, though it is significantly behind North America in this regard. The Income Level graph demonstrates a strong correlation between high income and high prevalence of “innovation” in NDCs—the lower the income, the less frequent the term. 
 
 #### "Technology"
-![technology - graph - region](https://github.com/user-attachments/assets/6c38b7cc-6fc0-4edc-9268-3fecdac20be1)
 ![technology2](https://github.com/user-attachments/assets/fa2050cf-8b34-486a-becc-3433254e832d)
+![technology - graph - region](https://github.com/user-attachments/assets/6c38b7cc-6fc0-4edc-9268-3fecdac20be1)
 ![technology - graph - income](https://github.com/user-attachments/assets/8c32f74e-0d1e-4e42-a632-29aee5ae0d2b)
 
 “Technology” shows a slightly different picture. It is most prevalent in Southern and South-Eastern Asia, with notable frequency in India and some prevalence in Saudi Arabia, Iraq, Afghanistan, Indonesia, and Thailand. It is also relatively frequent in China. It appears almost not at all anywhere in Europe. High-income countries are the least likely to mention it in comparison with others.
