@@ -836,3 +836,10 @@ Singh, P., Lehmann, E. and Tyrrell, M. (2024) ‘Climate Policy Transformer: Uti
 Spokoyny, D. et al. (2024) ‘Aligning Unstructured Paris Agreement Climate Plans with Sustainable Development Goals’, in D. Stammbach et al. (eds) Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024). Bangkok, Thailand: Association for Computational Linguistics, pp. 223–232. Available at: https://aclanthology.org/2024.climatenlp-1.17/ 
 
 Vogel, J. and Hickel, J. (2023) ‘Is green growth happening? An empirical analysis of achieved versus Paris-compliant CO2–GDP decoupling in high-income countries’, The Lancet Planetary Health, 7(9), pp. e759–e769. Available at: https://doi.org/10.1016/S2542-5196(23)00174-2.
+
+## Annex: Notes on Translations 
+
+| Country | Word | Translation | Original | Notes
+| --- | --- | --- | --- | --- |
+|Cameroon|Economic growth|To reconcile its legitimate ambitions for economic growth with the imperatives of combating global warming, and to meet the commitments made in its NDC, the Government has dedicated one of the overall objectives of the SND30 to the fight against climate change|Pour concilier ses ambitions légitimes de croissance économique en tant compte des impératifs pour inverser les effets négatifs des changements climatiques et tenir les engagements pris dans le cadre de sa CDN, le Gouvernement a consacré un des objectifs globaux de la SND30 à la lutte contre les changements climatiques|“Economic growth” is used in the same context in both, being juxtaposed with the need to combat climate change 
+
