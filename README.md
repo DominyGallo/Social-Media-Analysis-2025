@@ -723,7 +723,11 @@ Our regression heatmap highlighted some significant correlation between certain 
 
 ![image](https://github.com/user-attachments/assets/6ae549a8-9d97-4fcc-9e9b-3d32ac87e4e1)
 
-## Discussion
+## Discussion and Conclusion
+
+### Summary of Top Words Findings
+
+### Summary of Topic Modeling Findings
 
 ### Summary of Counting Words Findings
 
@@ -751,7 +755,7 @@ The difference in time horizon for countries’ submissions is a general limitat
 
 For the topic modelling section, limitations include the length of the text chunks, which were too long to be appropriate to the BERT model used. The PDF to txt pipeline did not include paragraph breaks in a standardized way, and the unit of analysis was therefore the entire document. Furthermore, due to formatting variations, images, etc in the PDFs, some of the converted text (especially titles and text from graphs) may not appear in the same order as the original documents. While this has a lesser impact on the counting words analysis, it could impact the calculated proximity of words in the topic modelling. 
 
-## Conclusion
+### Directions for Further Research
 
 
 
