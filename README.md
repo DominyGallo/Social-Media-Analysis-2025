@@ -754,6 +754,10 @@ Jernnäs, M. and Linnér, B. (2019) ‘A discursive cartography of nationally de
 
 Savin, I. et al. (2025) ‘Analysing content of Paris climate pledges with computational linguistics’, Nature Sustainability, 8, pp. 297–306. Available at: https://doi.org/10.1038/s41893-024-01504-6 
 
+Schulze Waltrup, R. (2025) ‘An eco-social policy typology: From system reproduction to transformation’, Global Social Policy, 25(1), pp. 17–35. Available at: https://doi.org/10.1177/14680181231205777.
+
 Singh, P., Lehmann, E. and Tyrrell, M. (2024) ‘Climate Policy Transformer: Utilizing NLP to track the coherence of Climate Policy Documents in the Context of the Paris Agreement’, in D. Stammbach et al. (eds) Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024). Bangkok, Thailand: Association for Computational Linguistics, pp. 1–11. Available at: https://doi.org/10.18653/v1/2024.climatenlp-1.1
 
 Spokoyny, D. et al. (2024) ‘Aligning Unstructured Paris Agreement Climate Plans with Sustainable Development Goals’, in D. Stammbach et al. (eds) Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024). Bangkok, Thailand: Association for Computational Linguistics, pp. 223–232. Available at: https://aclanthology.org/2024.climatenlp-1.17/ 
+
+Vogel, J. and Hickel, J. (2023) ‘Is green growth happening? An empirical analysis of achieved versus Paris-compliant CO2–GDP decoupling in high-income countries’, The Lancet Planetary Health, 7(9), pp. e759–e769. Available at: https://doi.org/10.1016/S2542-5196(23)00174-2.
