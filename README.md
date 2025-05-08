@@ -732,8 +732,13 @@ Finally, we can notice a high trend of discussing “disaster” in Asian and Pa
 
 ### Limitations
 
-Our data is quite sparse -> tried to take into account the length of the NDC files.
-For Europe, all EU countries have the same NDC -> which might modify the data, we decided it would be pertinent to replicate it, which might make it difficult (word choice in these NDCs might thus be exaggerated), we tried to factor this in by focusing on sub-regions as point of analysis.
+Several NDCs were uploaded in PDF formats that cannot be converted to .txt files, and therefore could not be analyzed here: Kenya, Kiribati, Lesotho, Mali, and Nigeria. Our original visualizations pictured these states as having word counts as 0 rather than disqualifying them from consideration, potentially disrupting regional trends. Moreover, an error resulted in Congo’s and Burkina Faso’s NDC’s not being translated from French into English when we ran our analyses, resulting in similar erroneous 0 results. Where these file errors were visibly disrupting regional patterns, we removed them and re-ran our analyses, but not across  the board. 
+
+Additionally, India’s submission is a short document referring to a previous NDC. For consistency, we used the most recent version for all NDCs, but future researchers may want to be more selective and include an earlier draft for India and other states whose updates are less robust than originals. 
+
+The difference in time horizon for countries’ submissions is a general limitation of the NDC corpus, as results may be impacted by different discourses, perhaps more current to the climate debate, being employed by countries with the administrative capacity to submit updated versions. Moreover, the differing length of the submissions, despite being normalized in our analysis, can be viewed as a limitation as countries with longer NDCs may engage in more in-depth discussions and use more words considered by our analysis. While it is still an interesting and valid comparison to see how countries engage in the NDC process and with what level of engagement, this limitation means we should hesitate to take NDCs as a proxy for climate action and national policy more broadly. 
+
+For the topic modelling section, limitations include the length of the text chunks, which were too long to be appropriate to the BERT model used. The PDF to txt pipeline did not include paragraph breaks in a standardized way, and the unit of analysis was therefore the entire document. Furthermore, due to formatting variations, images, etc in the PDFs, some of the converted text (especially titles and text from graphs) may not appear in the same order as the original documents. While this has a lesser impact on the counting words analysis, it could impact the calculated proximity of words in the topic modelling. 
 
 ## Conclusion
 
