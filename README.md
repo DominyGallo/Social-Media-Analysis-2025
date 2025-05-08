@@ -653,9 +653,10 @@ We next considered the prevalence of ideas like "mitigation," or reducing climat
 A cursory look at the graph reveals that “mitigation,” or prevention of climate change, is far more prevalent in the Southern Hemisphere than the Northern. Europe and Northern America have the lowest frequencies for the term. It is most prevalent in Sub-Saharan and Northern Africa, followed by South-eastern Asia and Latin America and the Caribbean. It is scarcely mentioned by the US, Canada, European States, Russia, or China. The Income Level graph indicates indeed that high income states have the fewest references to “mitigation,” and low-income states, the most.
 
 #### "Adaptation"
-![Adaptation](https://github.com/user-attachments/assets/b9310e27-418a-4a53-baaa-9b9b69dbc52e)
-![Adaptation - Sub-Region Graph](https://github.com/user-attachments/assets/8655cf6d-bc4d-41f0-b26c-335030eebfae)
-![Adaptation - Income Level Graph](https://github.com/user-attachments/assets/681b7db4-5052-4a8f-8d22-3c83f4b6b522)
+![adaptation - graph - subregoin](https://github.com/user-attachments/assets/8b69149e-b162-43c7-8ef8-56504e48eb35)
+![adaptation](https://github.com/user-attachments/assets/b291ab48-3b13-48e1-926a-ce27cf36130e)
+![adaptation - graph - income](https://github.com/user-attachments/assets/216a9730-1407-46ad-83cc-8008201f2a10)
+
 
 “Adaptation” reveals a slightly different picture. It is similarly the least prevalent in Europe, North America, and New Zealand, but Russia and China break from the “mitigation” trend and do make reference to “adaptation.” It is most prevalent in Melanesia, then Central Asia, followed by Northern Africa, Latin America and the Caribbean, South-eastern Asia, and finally Sub-Saharan Africa. Within Latin America, interestingly, Brazil includes rather few references while Argentina, Uruguay, Colombia, Ecuador, and Peru include more frequent notes.
 
