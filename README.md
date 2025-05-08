@@ -781,7 +781,7 @@ Further, LDCs were more likely to mention mitigation, adaptation and development
 
 ## Discussion and Conclusion
 
-After employing this range of language processing tools, we have gleaned a range of new insights into the distribution of global priorities and idologies as expressed in NDCs.
+After employing these various language processing tools, we have gleaned a range of new insights into the distribution of global priorities and idologies as expressed in NDCs.
 
 The **Top Words** analysis reveals the prevalence of abstraction in emmissions-reduction commitments while highlighting a handful of concrete and relevant themes. Looking past the words describing the documents’ titles (“national,” “determined,”  “contribution,” and “ndc”) and overarching themes (“climate” “change” and “emissions”), “energy” reveals itself to be the most frequent word to do with emission-reduction targets—a theme whose nuances our word counting analysis expands on. Echoing Moretti’s analysis in “Bankspeak,” we observe a range of nominalizations common to climate policy discourse: “adaptation,” “mitigation,” “implementation,” “information,” “reduction,” and “action.” We can also identify an overall concern with “development,” which our word counts reveals to be unevenly distributed based on region and income. High on the list is “management” and a range of abstractions common to managerial discourse: “sector” and “sectors” and “measures.”  We observe, also, an overall concern with “sustainab[ility]” and “use.”  The only two concrete nouns on this list are “water” and “GHG,” or greenhouse gas.
 
