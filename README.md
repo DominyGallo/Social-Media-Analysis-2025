@@ -758,11 +758,11 @@ For **Theme 5**, we notice that mitigation, or climate change prevention, is far
 
 Finally, withing **Theme 6**, we note a high trend of discussing “disaster” in Asian and Pacific Island states. The mention-distribution does not however align with statistical disaster risk. High income states mention disaster least frequently. Agriculture is a significant concern for Central and South Asian and African states--again, more so for low-income than high-income states--while water appears in NDCs of states experiencing water scarcity in Africa, Central Asia, and the Middle East, alongside Bolivia, and scarcely at all in the Global North.
 
-However, these conclusions are not definite, nor are they comprehensive. Several limitations to our study must be taken into account
+[REGRESSION SUMMARY]
 
 ### Limitations
 
-Several NDCs were uploaded in PDF formats that cannot be converted to .txt files, and therefore could not be analyzed here: Kenya, Kiribati, Lesotho, Mali, and Nigeria. Our original visualizations pictured these states as having word counts as 0 rather than disqualifying them from consideration, potentially disrupting regional trends. Moreover, an error resulted in Congo’s and Burkina Faso’s NDC’s not being translated from French into English when we ran our analyses, resulting in similar erroneous 0 results. Where these file errors were visibly disrupting regional patterns, we removed them and re-ran our analyses, but not across  the board. 
+There are some notable limitations to our study that are important to note in the interest of accurate interpretation and to guide future research. Several NDCs were uploaded in PDF formats that cannot be converted to .txt files, and therefore could not be analyzed here: Kenya, Kiribati, Lesotho, Mali, and Nigeria. Our original visualizations pictured these states as having word counts as 0 rather than disqualifying them from consideration, potentially disrupting regional trends. Moreover, an error resulted in Congo’s and Burkina Faso’s NDC’s not being translated from French into English when we ran our analyses, resulting in similar erroneous 0 results. Where these file errors were visibly disrupting regional patterns, we removed them and re-ran our analyses, but not across  the board. 
 
 Additionally, India’s submission is a short document referring to a previous NDC. For consistency, we used the most recent version for all NDCs, but future researchers may want to be more selective and include an earlier draft for India and other states whose updates are less robust than originals. 
 
