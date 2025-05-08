@@ -315,7 +315,7 @@ We initially set out to understand countries' attitude towards economic growth i
   Recomposing Consumption and Production | consumption 
   Degrowth | planetary boundaries, steady state, degrowth
 
-Given the unique ecological, social and economic complexities of each country, we were also interested in understanding the key themes or sectors countries' NDCs alluded to, and the extent to which the focus was on technological solutions. To determine the words for this, we referred to the EU Taxonomy Compass and the themes outlined in the [NDC climate toolbox]([url](https://ndcpartnership.org/knowledge-portal/climate-toolbox)), from which we chose the following words:
+Given the unique ecological, social and economic complexities of each country, we were also interested in understanding the key themes or sectors countries' NDCs alluded to, and the extent to which the focus was on technological solutions. To determine the words for this, we referred to the EU Taxonomy Compass and the themes outlined in the [NDC climate toolbox](https://ndcpartnership.org/knowledge-portal/climate-toolbox), from which we chose the following words:
 
 - disaster
 - energy
