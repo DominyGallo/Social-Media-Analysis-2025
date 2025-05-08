@@ -678,14 +678,11 @@ Moreover, high income states seem to have the lowest prevalence by far of the te
 ![Disaster - Income Level Graph](https://github.com/user-attachments/assets/3d5550f5-6a71-4937-9021-f11e11b1ca80)
 
 #### "Agriculture"
-![agriculture](https://github.com/user-attachments/assets/e0385802-90a2-487c-bda9-3a6bf945c926)
-![agriculture - graph - subregion](https://github.com/user-attachments/assets/5ddaac88-de1c-4379-b343-4cc6e2439322)
-![agriculture - graph - income](https://github.com/user-attachments/assets/35d695fd-48ed-4a2a-a728-95ed9a0f8342)
+![agriculture](https://github.com/user-attachments/assets/3149b533-909e-49c2-9c53-77c4b1debd93)
 ![agriculture - graph - region](https://github.com/user-attachments/assets/77204ec1-5eee-4ceb-8848-48fcfbc2a973)
 ![agriculture - graph - income](https://github.com/user-attachments/assets/f153b8db-356d-4529-8982-24c0a19ce422)
-![agriculture](https://github.com/user-attachments/assets/3149b533-909e-49c2-9c53-77c4b1debd93)
 
-The word “agriculture” is most common in Central and Southern/Southeastern Asia and Sub-Saharan Africa. Observing the map, it appears to be a concern for many African states. By Income Level, we can observe that high income states are the least likely to discuss agriculture and low-income states most likely.
+The word “agriculture” is most common in Central and Southern Asia and Sub-Saharan Africa. By Income Level, we can observe that high income states are least likely to discuss agriculture and low-income states most likely, a trend which is consistent across the income levels scale.
 
 #### "Water"
 ![water](https://github.com/user-attachments/assets/6672bbe5-cb4f-4043-aa28-296a66fd6490)
