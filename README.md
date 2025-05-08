@@ -702,9 +702,11 @@ The explanatory variables we used were as follows:
 
 | Explanatory variable | Description |
 | --- | --- |
-|Green growth | growth, economic growth, green growth |
-  Recomposing Consumption and Production | consumption 
-  Degrowth | planetary boundaries, steady state, degrowth
+|GDP | GDP USD March 2025 |
+  HDI | Human Development Index 2022
+  Least Developed Countries (LDC) | Dummy variable for LDC where 1 = Country is an LDC and 0 = Country is not an LDC
+  Small Island Developing States | Dummy variable for SIDS where 1 = Country is a SIDS and 0 = Country is not a SIDS
+  OECD | Dummy variable for OECD countries where 1 = Country is an OECD country and 0 = Country is not an OECD country
 
 --> insert code + painstaking process of having to complement to the csv file
 
