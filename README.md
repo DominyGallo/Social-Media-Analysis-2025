@@ -302,14 +302,40 @@ As a next step, to ensure the reliability of results, it would be necessary to i
 
 
 ## Counting Words
+The next step of our method involved counting specific words to understand countries' approach to meeting the Paris Agreement within their unique social and ecological context and culture. The actions by countries to reduce their national emissions can take on a multitude of dimensions, from the sectors they focus on to the balance of focus between technological solutions and behavioural solutions.  We conducted a short literature review to inform the words that we chose to count.
 
 ### Literature Review
+We initially set out to understand countries' attitude towards economic growth in their NDCs. Given Vogel and Hickel's (2023) finding that the emissions reductions that high-income countries achieved through absolute decoupling fall far short of Paris-compliant rates, we were interested to understand the extent to which emissions reductions strategies centred around economic growth or "green growth".
 
-What words? Eco-social policy typology & themes in NDCs
+To do so, we employed Schulze Waltrup's (2025) eco-social policy typology whereby the four types differ towards their approach towards economic growth. Based Schulze Waltrup's description of each type, we chose several words through which we could identify the type of policies which a countries' NDC focussed on. The typologies and associated words or phrases were as follows:
 
-perhaps @Chloe can do this?
+| Type of eco-social policy | Key words and phrases |
+| --- | --- |
+|Green growth | growth, economic growth, green growth |
+  Recomposing Consumption and Production | consumption 
+  Degrowth | planetary boundaries, steady state, degrowth
 
---> perhaps help explaining which words we read --> based on the literature review done
+Given the unique ecological, social and economic complexities of each country, we were also interested in understanding the key themes or sectors countries' NDCs alluded to, and the extent to which the focus was on technological solutions. To determine the words for this, we referred to the EU Taxonomy Compass and the themes outlined in the NDC climate toolbox, from which we chose the following words:
+
+- disaster
+- energy
+- sustainable
+- mitigation
+- adaptation
+- fossil fuels
+- clean energy
+- energy transition
+- development
+- private
+- technology
+- innovation
+- industry
+- regulation
+- differentiated
+- renewable
+- agriculture
+- water
+
 
 ### Method
 
