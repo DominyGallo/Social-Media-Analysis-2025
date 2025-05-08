@@ -653,8 +653,8 @@ We next considered the prevalence of ideas like "mitigation," or reducing climat
 A cursory look at the graph reveals that “mitigation,” or prevention of climate change, is far more prevalent in the Southern Hemisphere than the Northern. Europe and Northern America have the lowest frequencies for the term. It is most prevalent in Sub-Saharan and Northern Africa, followed by South-eastern Asia and Latin America and the Caribbean. It is scarcely mentioned by the US, Canada, European States, Russia, or China. The Income Level graph indicates indeed that high income states have the fewest references to “mitigation,” and low-income states, the most.
 
 #### "Adaptation"
-![adaptation - graph - subregoin](https://github.com/user-attachments/assets/8b69149e-b162-43c7-8ef8-56504e48eb35)
 ![adaptation](https://github.com/user-attachments/assets/b291ab48-3b13-48e1-926a-ce27cf36130e)
+![adaptation - graph - subregoin](https://github.com/user-attachments/assets/8b69149e-b162-43c7-8ef8-56504e48eb35)
 ![adaptation - graph - income](https://github.com/user-attachments/assets/216a9730-1407-46ad-83cc-8008201f2a10)
 
 
