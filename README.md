@@ -676,8 +676,8 @@ A cursory look at the graph reveals that “mitigation,” or prevention of clim
 Finally, we look into terms that have more geographically specific relevance, such as "disaster," "agriculture," and "water."
 
 #### "Disaster"
-![disaster - graph - region](https://github.com/user-attachments/assets/087917d2-0908-49bb-be51-cdbb8429165c)
 ![Disaster2](https://github.com/user-attachments/assets/60e80502-35dc-4dd9-bf87-7fc9322279ae)
+![disaster - graph - region](https://github.com/user-attachments/assets/087917d2-0908-49bb-be51-cdbb8429165c)
 
 A useful term to think about “adaptation” is “disaster,” as an index of references to climate impacts via natural disasters. Indeed, the results reveal an over-representation in the Pacific islands of Melanesia and Polynesia as well as South-eastern and Southern Asia. They appear scarcely at all in Europe—not at all in Western Europe—and minimally in Northern America or Australia and New Zealand. 
 
