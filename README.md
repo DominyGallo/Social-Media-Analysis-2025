@@ -573,7 +573,7 @@ The Income Level graph reveals, indeed, that high income states are the least li
 ![responsibilities - subregion](https://github.com/user-attachments/assets/9d0eadb2-951e-40fe-9b02-2ebd878dba8f)
 ![responsibilities - income](https://github.com/user-attachments/assets/cee0953d-040a-43bb-a6ca-0dbcd617e289)
 
-Notably, states likely to incur the most obligations based on the principle of “common but differentiated responsibilities” make the least reference to the phrase—it appears nowhere in any Western or Eastern European, Northern American, or Australian NDC. It appears most frequently in Western Asia, Latin America and the Caribbean, with particularly high rates in Brazil. The highest and the lowest income states, interestingly, are the least likely to mention it in comparison with middle-income states.
+Notably, states likely to incur the most obligations based on the principle of “common but differentiated responsibilities” make the least reference to the phrase—it appears nowhere in any Western or Eastern European, Northern American, or Australian NDC. It appears most frequently in Western Asia, Latin America and the Caribbean, with particularly high rates in Brazil. The highest and the lowest income states, interestingly, are the least likely to mention it in comparison with middle-income states. However, in general, the phrase is not particularly common across the corpus.
 
 
 ### Theme 3: Innovation, the Private Sector, and the State
