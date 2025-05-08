@@ -710,7 +710,10 @@ The explanatory variables we used were as follows:
 
 --> insert code + painstaking process of having to complement to the csv file
 
-### *insert* Chloe's beautiful heatmap
+### Results
+Our regression heatmap highlighted some significant correlation between certain country characteristics and the discourse in their NDCs:
+
+![image](https://github.com/user-attachments/assets/6ae549a8-9d97-4fcc-9e9b-3d32ac87e4e1)
 
 ## Discussion
 
