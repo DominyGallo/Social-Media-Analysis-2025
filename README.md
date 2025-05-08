@@ -331,7 +331,7 @@ Given the unique ecological, social and economic complexities of each country, w
 - innovation
 - industry
 - regulation
-- differentiated
+- differentiated responsibilities
 - renewable
 - agriculture
 - water
